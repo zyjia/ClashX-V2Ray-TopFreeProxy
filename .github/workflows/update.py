@@ -33,8 +33,8 @@ def update(filename):
                                  f"nodefree.org/dy/{year}/{month}/{year}{month}{day}.{tp}", content)
 
             # check and update v2rayshare link
-            NodeFree_url = f"https://v2rayshare.com/wp-content/uploads/{year}/{month}/{year}{month}{day}.{tp}"
-            if check_url(NodeFree_url) == 200:
+            v2rayshare_url = f"https://v2rayshare.com/wp-content/uploads/{year}/{month}/{year}{month}{day}.{tp}"
+            if check_url(v2rayshare_url) == 200:
                 content = re.sub("v2rayshare.com/wp-content/uploads/[0-9]{4}/[0-9]{2}/[0-9]{8}" + f".{tp}",
                                  f"v2rayshare.com/wp-content/uploads/{year}/{month}/{year}{month}{day}.{tp}", content)
 
