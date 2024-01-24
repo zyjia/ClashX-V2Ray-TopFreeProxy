@@ -612,7 +612,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-198.41.223.37-016_3@16
+  name: 🏁RELAY-198.41.223.6-016_3@16
   network: ws
   port: 443
   server: cf-lt.sharecentre.online
@@ -976,7 +976,7 @@ proxies:
   ws-path: /ECTCJ0DF
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-104.16.210.157-054_3@54
+  name: 🏁RELAY-172.64.141.75-054_3@54
   network: ws
   port: 80
   server: uicdn.cf
@@ -1230,7 +1230,7 @@ proxies:
   ws-path: /A2DJOPFT
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-172.67.73.208-077_3@77
+  name: 🏁RELAY-104.26.9.112-077_3@77
   network: ws
   port: 80
   server: get.tech
@@ -1405,7 +1405,7 @@ proxies:
   ws-path: /shirker
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-141.193.213.21-097_3@97
+  name: 🏁RELAY-141.193.213.20-097_3@97
   network: ws
   port: 443
   server: news.microsoft.com
@@ -1587,7 +1587,7 @@ proxies:
   ws-path: /hkaa0
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-104.16.67.38-117_3@117
+  name: 🏁RELAY-104.16.68.38-117_3@117
   network: ws
   port: 443
   server: speed.cloudflare.com
@@ -1691,7 +1691,7 @@ proxies:
   ws-path: /sdx.us
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-104.21.21.147-129_3@129
+  name: 🏁RELAY-172.67.199.34-129_3@129
   network: ws
   port: 443
   server: hohm.microsoft.com
@@ -1938,20 +1938,162 @@ proxies:
   ws-path: /fr-unlimitxxx
 - alterId: 0
   cipher: auto
-  name: 🇱🇹LT-94.131.13.110-161_3@161
-  network: ws
-  port: 80
-  server: 94.131.13.110
+  name: 🇹🇼TW-118.167.69.122-160_3@160
+  network: tcp
+  port: 12002
+  server: nb22.ntbq.dynu.net
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: d3e40d59-b53c-4f4e-8867-bb598be864d2
+  uuid: d9e103fc-741d-459f-9a92-4f59bfb083ef
   ws-headers:
-    Host: lt1-vmess.sshmax.xyz
-  ws-path: /vmess
+    Host: nb22.ntbq.dynu.net
+  ws-path: /
 - alterId: 0
   cipher: auto
-  name: 🇬🇧GB-172.99.190.109-162_3@162
+  name: 🇹🇼TW-118.167.76.233-161_3@161
+  network: tcp
+  port: 2024
+  server: b23.ntbq.dynu.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4403b75a-24ca-4d06-af15-6e157a0a7361
+  ws-headers:
+    Host: b23.ntbq.dynu.net
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼TW-118.167.76.233-162_3@162
+  network: tcp
+  port: 2024
+  server: 118.167.76.233
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 6b2e0602-bc1a-4ec3-88da-4238a6955ddd
+  ws-headers:
+    Host: 118.167.76.233
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB-13.42.187.141-163_3@163
+  password: u17T3BvpYaaiuW2c
+  port: 443
+  server: series-a2-mec.samanehha.co
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼TW-36.232.158.210-165_3@165
+  network: tcp
+  port: 6122
+  server: c12.twtc.dynu.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: a209ff8c-d691-496c-8c1f-32d2e995b603
+  ws-headers:
+    Host: c12.twtc.dynu.net
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 🇵🇹PT-94.131.10.135-166_3@166
+  network: ws
+  port: 80
+  server: 94.131.10.135
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695
+  ws-headers:
+    Host: 94.131.10.135
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-172.67.217.144-167_3@167
+  network: ws
+  port: 80
+  server: 172.67.217.144
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8
+  ws-headers:
+    Host: lv1.xv2ray.net
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.18.96.67-168_3@168
+  network: ws
+  port: 8880
+  server: 21.namesilo123.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 40e71b6a-00cf-437d-8232-4e83e6437286
+  ws-headers:
+    Host: uspp.sanfen002.top
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB-18.168.78.229-169_3@169
+  password: mps3FwmDjLrWaOVg
+  port: 443
+  server: v1.arvancode.eu.org
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.31.16.104-170_3@170
+  network: ws
+  port: 8080
+  server: 104.31.16.104
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 3a6752b4-8353-4172-85b1-32202116714d
+  ws-headers:
+    Host: asan3.azad1.tech
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.21.23.176-171_3@171
+  network: ws
+  port: 8080
+  server: www.crispyrainbow.biz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-headers:
+    Host: www.crispyrainbow.biz
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 🇵🇹PT-94.131.10.135-172_3@172
+  network: ws
+  port: 80
+  server: pt2-vmess.sshmax.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695
+  ws-headers:
+    Host: pt2-vmess.sshmax.xyz
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.17.184.241-173_3@173
+  network: ws
+  port: 2095
+  server: 104.17.184.241
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 0f42a063-315b-4524-8501-469c51838bb6
+  ws-headers:
+    Host: mgone_cdn.yunjisuan.cf
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧GB-172.99.190.109-174_3@174
   network: ws
   port: 443
   server: 172.99.190.109
@@ -1964,90 +2106,52 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 🇪🇪EE-95.164.8.106-164_3@164
+  name: 🇻🇳VN-103.154.62.18-176_3@176
   network: ws
   port: 80
-  server: ee2-vmess.sshmax.xyz
+  server: hn5.fuzzypn.me
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: c1ebe8c7-bdd9-4aca-a2f7-01bea79279b3
+  uuid: 7a9eab7e-f9be-4b4d-8cbb-eaaee62d9eee
   ws-headers:
-    Host: ee2-vmess.sshmax.xyz
-  ws-path: /vmess
+    Host: hn5.fuzzypn.me
+  ws-path: /
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-104.21.69.44-165_3@165
+  name: 🇺🇦UA-185.158.211.186-177_3@177
   network: ws
   port: 80
-  server: zula.ir
+  server: 185.158.211.186
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 9d7d97c2-d7a5-41c9-a33c-370caed71287
+  uuid: b82493e3-07b4-4cf2-b585-965575cfeb32
   ws-headers:
-    Host: pt1-vmess.sshmax.xyz
-  ws-path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 🇻🇳VN-115.79.238.34-166_3@166
-  network: ws
-  port: 80
-  server: 115.79.238.34
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: fbccfed7-1aeb-416a-a4fd-7af1747f9f3b
-  ws-headers:
-    Host: skyht2.vpndata.vn
-  ws-path: /VPNDATA.VPN
-- alterId: 0
-  cipher: auto
-  name: 🇻🇳VN-115.79.238.34-167_3@167
-  network: ws
-  port: 80
-  server: skyht2.vpndata.vn
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: fbccfed7-1aeb-416a-a4fd-7af1747f9f3b
-  ws-headers:
-    Host: lienquan.garena.vn
-  ws-path: /VPNDATA.VPN
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-162.159.133.174-168_3@168
-  network: ws
-  port: 8080
-  server: cf.openxai.link
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
-  ws-headers:
-    Host: eu2.openxai.link
-  ws-path: /?ed=2048
+    Host: softiri.serveirc.com
+  ws-path: /@forwardv2ray
 - cipher: chacha20-ietf-poly1305
-  name: 🇸🇪SE-70.34.202.241-169_3@169
-  password: -CnwU2F6uEeaV191P0m-Rg
-  port: 1080
-  server: 70.34.202.241
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳CN-183.233.187.235-170_3@170
+  name: 🇨🇳CN-183.233.187.235-178_3@178
   password: cfa17a0d-5e7d-4871-976e-f116e0818123
   port: 50002
   server: service.ouluyun9803.com
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳CN-183.233.187.230-171_3@171
-  password: cfa17a0d-5e7d-4871-976e-f116e0818123
-  port: 26668
-  server: service.ouluyun9803.com
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 🇨🇳CN-120.233.42.199-172_3@172
+  name: 🏁RELAY-104.21.8.157-180_3@180
+  network: ws
+  port: 2082
+  server: s1c.v2.v001sss.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-headers:
+    Host: s1c.v2.v001sss.xyz
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳CN-120.233.42.199-181_3@181
   network: ws
   port: 20401
   server: data-us-v1.shwjfkw.cn
@@ -2058,33 +2162,52 @@ proxies:
   ws-headers:
     Host: data-us-v1.shwjfkw.cn
   ws-path: /debian
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.17.25.1-182_3@182
+  network: ws
+  port: 80
+  server: 104.17.25.1
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d6664518-c8e1-42cf-f2c1-d33dcc01a8a6
+  ws-headers:
+    Host: sgvpn.catnipballs.gay
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB-18.168.78.229-184_3@184
+  password: W74XFALLLuw6m5IA
+  port: 443
+  server: series-a1.samanehha.co
+  type: ss
 - cipher: aes-256-cfb
-  name: 🇸🇬SG-13.213.46.196-173_3@173
+  name: 🇸🇬SG-13.213.46.196-185_3@185
   password: amazonskr05
   port: 443
   server: 13.213.46.196
   type: ss
 - cipher: aes-256-cfb
-  name: 🇯🇵JP-54.199.83.239-174_3@174
+  name: 🇯🇵JP-54.199.83.239-186_3@186
   password: doub.io
   port: 2333
   server: 54.199.83.239
   type: ss
 - cipher: aes-256-cfb
-  name: 🇸🇬SG-54.251.168.143-175_3@175
+  name: 🇸🇬SG-54.251.168.143-187_3@187
   password: amazonskr05
   port: 443
   server: 54.251.168.143
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇨🇳CN-117.149.247.11-176_3@176
+  name: 🇨🇳CN-117.149.247.11-188_3@188
   password: 8e949d75-3510-4678-8593-3c5032dd931a
   port: 30818
   server: wqfuinwqffq.dfcloud.xyz
   type: ss
 - alterId: 64
   cipher: auto
-  name: 🇦🇶NOWHERE-0.0.0.0-177_3@177
+  name: 🇦🇶NOWHERE-0.0.0.0-189_3@189
   network: ws
   port: 2095
   server: xt.ylks01.eu.org
@@ -2097,7 +2220,7 @@ proxies:
   ws-path: /blue
 - alterId: 64
   cipher: auto
-  name: 🇦🇶NOWHERE-0.0.0.0-178_3@178
+  name: 🇦🇶NOWHERE-0.0.0.0-190_3@190
   network: ws
   port: 443
   server: aaaa.wxx.gay
@@ -2110,7 +2233,7 @@ proxies:
   ws-path: /look
 - alterId: 64
   cipher: auto
-  name: 🇸🇬SG-159.223.94.156-179_3@179
+  name: 🇸🇬SG-159.223.94.156-191_3@191
   network: ws
   port: 80
   server: 159.223.94.156
@@ -2123,7 +2246,7 @@ proxies:
   ws-path: /anti13.zingfast.vn
 - alterId: 64
   cipher: auto
-  name: 🏁RELAY-104.21.67.88-180_3@180
+  name: 🏁RELAY-172.67.219.34-192_3@192
   network: ws
   port: 443
   server: hkd1.quickerlink.xyz
@@ -2134,73 +2257,121 @@ proxies:
   ws-headers:
     Host: hkd1.quickerlink.xyz
   ws-path: /h6jr23x9h3lqiitg
+- name: 🇺🇸US-44.230.99.253-193_3@193
+  password: 订阅内容解析错误telegram-id-directvpn
+  port: 22222
+  server: 44.230.99.253
+  skip-cert-verify: true
+  sni: trj.rollingnext.co.uk
+  type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-13.43.223.6-182_3@182
+  name: 🇬🇧GB-18.168.78.229-194_3@194
   password: W74XFALLLuw6m5IA
   port: 443
-  server: java.ct.arvancode.eu.org
+  server: java.ct.arvancode.eu.Org
   type: ss
-- name: 🏁RELAY-188.114.98.0-186_3@186
-  password: 01596265-168b-46a7-bcb7-25662c7a9546
-  port: 443
-  server: 188.114.98.0
+- name: 🇮🇪IE-63.34.59.40-195_3@195
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 63.34.59.40
   skip-cert-verify: true
-  sni: hdfy7c1.foriran2.eu.org
+  sni: trojan.miwan.co.uk
   type: trojan
-- name: 🇨🇳CN-112.29.200.89-189_3@189
+- name: 🇨🇳CN-112.29.200.89-196_3@196
   password: 7c266797-c2f6-43cf-8cdb-3e3a8e67de8b
-  port: 35005
+  port: 35003
   server: cn22.firewoodzz.com
   skip-cert-verify: true
   sni: updates.sub-nthu.com
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-198.41.223.234-197_3@197
+  network: ws
+  port: 2052
+  server: biezaicuoguoxyz.qiliqili.store
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 8b79e86b-4d34-416d-871a-22521df72088
+  ws-headers:
+    Host: cuoguoit.qiliqili.store
+  ws-path: /?ed=2048
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-13.43.223.6-190_3@190
+  name: 🇬🇧GB-13.41.121.112-198_3@198
   password: W74XFALLLuw6m5IA
   port: 443
-  server: series-a1.samanehha.co
+  server: 13.41.121.112
   type: ss
-- name: 🇺🇸US-23.142.200.175-191_3@191
-  password: 27876_t7d7f4e3f
-  port: 443
-  server: los16.ttddd.xyz
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-172.67.194.156-200_3@200
+  network: ws
+  port: 8080
+  server: cf.openxai.link
   skip-cert-verify: true
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-13.43.223.6-192_3@192
-  password: mps3FwmDjLrWaOVg
+  tls: false
+  type: vmess
+  uuid: c18beb85-c67b-46ed-b8cc-4cbfeae5f194
+  ws-headers:
+    Host: eu1.openxai.link
+  ws-path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.21.83.10-201_3@201
+  network: ws
+  port: 8080
+  server: www.coldstone.club
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-headers:
+    Host: www.coldstone.club
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼TW-36.238.156.2-203_3@203
+  network: tcp
+  port: 41332
+  server: v94.topman8846.cc
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: d2a1cd29-9ac2-3165-a082-cf09cdd3bf50
+  ws-headers:
+    Host: v94.topman8846.cc
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 🇮🇶IQ-130.193.166.2-205_3@205
+  network: ws
   port: 443
-  server: series-a2.samanehha.co
-  type: ss
-- cipher: 2022-blake3-aes-256-gcm
-  name: 🇩🇪DE-149.40.62.114-194_3@194
-  password: R1lKGvLE9llrsrE8+ljScaTSOPTZz3LZGavn9O3XphU=:EXmASbpxwohn93xht33mYpo/fymXyTKrm3v4DDMLZ8E=
-  port: 443
-  server: 149.40.62.114
-  type: ss
-- name: 🇮🇪IE-34.250.53.126-195_3@195
-  password: telegram-id-privatevpns
+  server: 130.193.166.2
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 7682b778-b64b-408b-8fb2-61d7c7fc43e5
+  ws-headers:
+    Host: soft8989.redirectme.net
+  ws-path: /@forwardv2ray
+- name: 🇬🇧GB-3.11.123.54-206_3@206
+  password: telegram-id-directvpn
   port: 22222
-  server: 34.250.53.126
+  server: 3.11.123.54
+  skip-cert-verify: true
+  sni: trj.rollingnext.co.uk
+  type: trojan
+- name: 🇩🇪DE-18.185.201.37-207_3@207
+  password: telegram-id-directvpn
+  port: 22222
+  server: 18.185.201.37
   skip-cert-verify: true
   sni: trojan.miwan.co.uk
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 🇹🇼TW-118.167.69.122-196_3@196
-  network: tcp
-  port: 12002
-  server: 118.167.69.122
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 6b2e0602-bc1a-4ec3-88da-4238a6955ddd
-  ws-headers:
-    Host: 118.167.69.122
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-104.17.25.2-197_3@197
+  name: 🏁RELAY-104.17.25.2-208_3@208
   network: ws
   port: 80
   server: 104.17.25.2
@@ -2213,162 +2384,163 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 🇹🇼TW-118.167.76.233-198_3@198
+  name: 🇨🇳CN-36.139.104.222-209_3@209
   network: tcp
-  port: 2024
-  server: 118.167.76.233
+  port: 31887
+  server: 6e3m6y04.m1k2s.xyz
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
-  uuid: 6b2e0602-bc1a-4ec3-88da-4238a6955ddd
+  uuid: 7aaccb6e-d029-4e26-89d6-5b38615e69aa
   ws-headers:
-    Host: 118.167.76.233
+    Host: 6e3m6y04.m1k2s.xyz
   ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-104.17.25.1-199_3@199
-  network: ws
-  port: 80
-  server: 104.17.25.1
+- name: 🇸🇪SE-51.21.11.122-210_3@210
+  password: telegram-id-directvpn
+  port: 22222
+  server: 51.21.11.122
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d6664518-c8e1-42cf-f2c1-d33dcc01a8a6
-  ws-headers:
-    Host: sgvpn.catnipballs.gay
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-13.43.223.6-200_3@200
-  password: mps3FwmDjLrWaOVg
+  sni: trojan.miwan.co.uk
+  type: trojan
+- name: 🇫🇷FR-51.210.182.170-211_3@211
+  password: 7fd44b70-b877-11ee-b55a-1239d0255272
   port: 443
-  server: v1.arvancode.eu.org
-  type: ss
-- name: 🇻🇳VN-42.96.11.242-201_3@201
-  password: eb9e8a52-0fec-4a10-8d16-af3b32874933
-  port: 443
-  server: ANTIDDOS5.5GTOCDOCAO.COM
+  server: 51.210.182.170
   skip-cert-verify: true
-  sni: lienquan.garena.vn
+  sni: yahoo.com
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 🇹🇼TW-36.232.158.210-203_3@203
+  name: 🇨🇳CN-183.240.113.235-212_3@212
   network: tcp
-  port: 6122
-  server: 36.232.158.210
+  port: 31401
+  server: 8l2k1r04.m1k2s.xyz
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
-  uuid: 6b2e0602-bc1a-4ec3-88da-4238a6955ddd
+  uuid: 7aaccb6e-d029-4e26-89d6-5b38615e69aa
   ws-headers:
-    Host: 36.232.158.210
+    Host: 8l2k1r04.m1k2s.xyz
   ws-path: /
-- name: 🇨🇳CN-183.236.51.7-204_3@204
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳CN-36.139.104.222-214_3@214
+  network: tcp
+  port: 31701
+  server: 3d1c4a04.m1k2s.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 7aaccb6e-d029-4e26-89d6-5b38615e69aa
+  ws-headers:
+    Host: 3d1c4a04.m1k2s.xyz
+  ws-path: /
+- name: 🇨🇳CN-183.236.51.7-215_3@215
   password: 566238ab-a768-482e-b0f8-7eb73c3557f5
   port: 10801
   server: 183.236.51.7
   skip-cert-verify: true
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-- name: 🇨🇳CN-183.236.51.7-205_3@205
+- name: 🇨🇳CN-183.236.51.7-216_3@216
   password: b99b5064-3f4e-484e-9279-ca0eaa21be07
   port: 10808
   server: 183.236.51.7
   skip-cert-verify: true
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-- name: 🇨🇳CN-183.236.51.7-206_3@206
+- name: 🇨🇳CN-183.236.51.7-217_3@217
   password: 589813d0-01da-4f15-bc4d-03f6964b03ce
   port: 10802
   server: 183.236.51.7
   skip-cert-verify: true
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-- name: 🇨🇳CN-183.236.51.7-207_3@207
+- name: 🇨🇳CN-183.236.51.7-218_3@218
   password: f1fedda8-0fb1-4d88-a504-aa23928e348f
   port: 10803
   server: 183.236.51.7
   skip-cert-verify: true
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-- name: 🇨🇳CN-183.236.51.7-208_3@208
+- name: 🇨🇳CN-183.236.51.7-219_3@219
   password: f1fedda8-0fb1-4d88-a504-aa23928e348f
   port: 10804
   server: 183.236.51.7
   skip-cert-verify: true
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-- name: 🇨🇳CN-183.236.51.6-209_3@209
+- name: 🇨🇳CN-183.236.51.6-220_3@220
   password: af3a51e7-e0f0-4b4c-8bb2-b314ecd03f6b
   port: 10805
   server: 183.236.51.6
   skip-cert-verify: true
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-- name: 🇨🇳CN-183.236.51.7-210_3@210
+- name: 🇨🇳CN-183.236.51.7-221_3@221
   password: c4037eb8-428a-479a-abc7-42203d991b4c
   port: 10806
   server: 183.236.51.7
   skip-cert-verify: true
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-- name: 🇨🇳CN-183.236.51.7-211_3@211
+- name: 🇨🇳CN-183.236.51.7-222_3@222
   password: a22dea2a-b7db-4a0f-94dc-950fb036dd42
   port: 10807
   server: 183.236.51.7
   skip-cert-verify: true
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-- name: 🇨🇳CN-183.236.51.6-212_3@212
+- name: 🇨🇳CN-183.236.51.6-223_3@223
   password: 55ed7f3f-86d1-455b-b4d0-43342de056c7
   port: 10808
   server: 183.236.51.6
   skip-cert-verify: true
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-- name: 🇨🇳CN-183.236.51.6-213_3@213
+- name: 🇨🇳CN-183.236.51.6-224_3@224
   password: b99b5064-3f4e-484e-9279-ca0eaa21be07
   port: 10831
   server: 183.236.51.6
   skip-cert-verify: true
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-- name: 🇨🇳CN-183.236.51.6-214_3@214
+- name: 🇨🇳CN-183.236.51.6-225_3@225
   password: fc2b0744-8163-4942-8a69-5eb0c6915dcd
   port: 10834
   server: 183.236.51.6
   skip-cert-verify: true
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-- name: 🇨🇳CN-183.236.51.7-215_3@215
+- name: 🇨🇳CN-183.236.51.7-226_3@226
   password: 566238ab-a768-482e-b0f8-7eb73c3557f5
   port: 10827
   server: 183.236.51.7
   skip-cert-verify: true
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-- name: 🇨🇳CN-183.236.51.7-216_3@216
+- name: 🇨🇳CN-183.236.51.7-227_3@227
   password: af3a51e7-e0f0-4b4c-8bb2-b314ecd03f6b
   port: 10830
   server: 183.236.51.7
   skip-cert-verify: true
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-- name: 🇨🇳CN-183.236.51.6-217_3@217
+- name: 🇨🇳CN-183.236.51.6-228_3@228
   password: 1c61d5b7-6d42-47e7-9514-490a6e76ce2c
   port: 10828
   server: 183.236.51.6
   skip-cert-verify: true
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-- name: 🇨🇳CN-183.236.51.7-218_3@218
+- name: 🇨🇳CN-183.236.51.7-229_3@229
   password: 6c8c6a79-3713-4205-a434-5e00d9f33f11
   port: 10832
   server: 183.236.51.7
   skip-cert-verify: true
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-- name: 🇨🇳CN-183.236.51.7-219_3@219
+- name: 🇨🇳CN-183.236.51.7-230_3@230
   password: 55ed7f3f-86d1-455b-b4d0-43342de056c7
   port: 10829
   server: 183.236.51.7
@@ -2377,131 +2549,138 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-104.18.203.232-221_3@220
-  network: ws
-  port: 80
-  server: www.speedtest.net
+  name: 🇹🇼TW-36.232.158.210-233_3@232
+  network: tcp
+  port: 6122
+  server: 36.232.158.210
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: b2c3b2d3-c21c-4a33-b55c-db589d485487
+  uuid: 4403b75a-24ca-4d06-af15-6e157a0a7361
   ws-headers:
-    Host: worker-falling-leaf-df34.dtdacxjh.workers.dev
-  ws-path: /vmess
-- name: 🇫🇷FR-15.188.169.85-223_3@222
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 15.188.169.85
+    Host: 36.232.158.210
+  ws-path: /
+- name: 🇨🇳CN-112.29.200.89-234_3@233
+  password: 7c266797-c2f6-43cf-8cdb-3e3a8e67de8b
+  port: 35002
+  server: cn22.firewoodzz.com
   skip-cert-verify: true
-  sni: trojan.miwan.co.uk
+  sni: updates.sub-nthu.com
   type: trojan
-- name: 🇸🇪SE-51.21.59.154-224_3@223
-  password: telegram-id-directvpn
-  port: 22222
-  server: 51.21.59.154
-  skip-cert-verify: true
-  sni: trojan.miwan.co.uk
-  type: trojan
-- name: 🇨🇳CN-223.113.130.152-225_3@224
-  password: 414dff55-922a-4dc8-b5d3-b6517942b25a
-  port: 15003
-  server: east.eeeeeef998.buzz
-  skip-cert-verify: true
-  sni: data.steamdownload.top
-  type: trojan
-- name: 🇩🇪DE-18.185.210.108-227_3@226
-  password: telegram-id-directvpn
-  port: 22222
-  server: 18.185.210.108
-  skip-cert-verify: true
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 🇫🇷FR-15.188.2.151-230_3@229
+- name: 🇫🇷FR-15.188.2.151-235_3@234
   password: telegram-id-privatevpns
   port: 22222
   server: 15.188.2.151
   skip-cert-verify: true
   sni: trojan.miwan.co.uk
   type: trojan
-- name: 🇬🇧GB-13.42.93.32-234_3@233
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.42.93.32
-  skip-cert-verify: true
-  sni: trojan.miwan.co.uk
-  type: trojan
-- name: 🇬🇧GB-3.11.170.62-236_3@235
-  password: telegram-id-directvpn
-  port: 22222
-  server: 3.11.170.62
-  skip-cert-verify: true
-  sni: trojan.miwan.co.uk
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳CN-183.233.187.230-237_3@236
-  password: cfa17a0d-5e7d-4871-976e-f116e0818123
-  port: 21003
-  server: service.ouluyun9803.com
-  type: ss
-- name: 🇮🇪IE-54.75.182.210-238_3@237
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 54.75.182.210
-  skip-cert-verify: true
-  sni: trojan.miwan.co.uk
-  type: trojan
-- name: 🇮🇪IE-79.125.70.132-239_3@238
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 79.125.70.132
-  skip-cert-verify: true
-  sni: trojan.miwan.co.uk
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-18.133.96.161-240_3@239
-  password: u17T3BvpYaaiuW2c
-  port: 443
-  server: series-a2-mec.samanehha.co
-  type: ss
-- name: 🇩🇪DE-18.185.201.37-242_3@241
-  password: telegram-id-directvpn
-  port: 22222
-  server: 18.185.201.37
-  skip-cert-verify: true
-  sni: trojan.miwan.co.uk
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-172.64.229.1-243_3@242
+  name: 🏁RELAY-172.67.184.13-236_3@235
   network: ws
   port: 80
-  server: 172.64.229.1
+  server: yhnsb3.shabijichang.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 58f4f326-7032-4ef8-bfde-1908bae74994
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-headers:
-    Host: jpli.edge.233.tw
-  ws-path: /geg/45?ed=2048
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳CN-183.233.187.235-245_3@244
-  password: cfa17a0d-5e7d-4871-976e-f116e0818123
-  port: 20003
-  server: service.ouluyun9803.com
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-104.18.15.147-251_3@250
-  network: ws
-  port: 80
-  server: 104.18.15.147
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662
-  ws-headers:
-    Host: us3.889611.com
+    Host: yhnsb3.shabijichang.com
   ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB-18.168.78.229-237_3@236
+  password: mps3FwmDjLrWaOVg
+  port: 443
+  server: series-a2.samanehha.co
+  type: ss
+- name: 🇮🇪IE-34.250.53.126-238_3@237
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 34.250.53.126
+  skip-cert-verify: true
+  sni: trojan.miwan.co.uk
+  type: trojan
+- name: 🇩🇪DE-18.192.144.31-239_3@238
+  password: telegram-id-directvpn
+  port: 22222
+  server: 18.192.144.31
+  skip-cert-verify: true
+  sni: trojan.miwan.co.uk
+  type: trojan
+- name: 🇸🇪SE-51.21.110.130-240_3@239
+  password: telegram-id-directvpn
+  port: 22222
+  server: 51.21.110.130
+  skip-cert-verify: true
+  sni: trojan.miwan.co.uk
+  type: trojan
+- name: 🇨🇳CN-183.236.51.7-242_3@241
+  password: c1dc3493-2298-44ab-98c1-4abccbc350d1
+  port: 10847
+  server: xibaozi.19890604.day
+  skip-cert-verify: true
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+- name: 🇨🇳CN-112.29.200.89-243_3@242
+  password: 7c266797-c2f6-43cf-8cdb-3e3a8e67de8b
+  port: 35005
+  server: cn22.firewoodzz.com
+  skip-cert-verify: true
+  sni: updates.sub-nthu.com
+  type: trojan
+- alterId: 64
+  cipher: auto
+  name: 🇸🇬SG-202.79.171.239-244_3@243
+  network: ws
+  port: 443
+  server: 202.79.171.239
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: fb3583a3-7717-4fe5-9146-3301861f9f41
+  ws-headers:
+    Host: www.46130221.xyz
+  ws-path: /path/143534141104
+- cipher: aes-256-gcm
+  name: 🇫🇷FR-51.158.150.168-247_3@246
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 51.158.150.168
+  type: ss
+- name: 🇸🇪SE-16.171.76.145-248_3@247
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 16.171.76.145
+  skip-cert-verify: true
+  sni: trojan.miwan.co.uk
+  type: trojan
+- name: 🏁RELAY-188.114.98.0-249_3@248
+  password: 01596265-168b-46a7-bcb7-25662c7a9546
+  port: 443
+  server: 188.114.98.0
+  skip-cert-verify: true
+  sni: hdfy7c1.foriran2.eu.org
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼TW-118.167.69.122-250_3@249
+  network: tcp
+  port: 12002
+  server: 118.167.69.122
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 6b2e0602-bc1a-4ec3-88da-4238a6955ddd
+  ws-headers:
+    Host: 118.167.69.122
+  ws-path: /
+- name: 🇬🇧GB-18.168.161.11-251_3@250
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.168.161.11
+  skip-cert-verify: true
+  sni: trojan.miwan.co.uk
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 加拿大 001_4@0
@@ -3268,6 +3447,19 @@ proxies:
     headers:
       Host: franc.digires.shop
     path: /11201
+- alterId: 0
+  cipher: auto
+  name: 加拿大 042_4@55
+  network: ws
+  port: 80
+  server: www.speedtest.net
+  tls: false
+  type: vmess
+  uuid: bf75108e-7bec-4fe0-8db9-3d4985dd3bd6
+  ws-opts:
+    headers:
+      Host: it1.xv2ray.net
+    path: /
 - alterId: 0
   cipher: auto
   name: 加拿大 043_4@56
@@ -5401,21 +5593,6 @@ proxies:
     path: /anti13.zingfast.vn
 - alterId: 0
   cipher: auto
-  name: 加拿大 155_4@212
-  network: ws
-  port: 80
-  server: 172.67.217.144
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8
-  ws-opts:
-    headers:
-      Host: lv1.xv2ray.net
-    path: /vmess
-- alterId: 0
-  cipher: auto
   name: 加拿大 156_4@213
   network: ws
   port: 2052
@@ -6421,6 +6598,19 @@ proxies:
   network: ws
   port: 80
   server: 104.18.154.42
+  skip-cert-verify: true
+  type: vmess
+  uuid: f425df23-6ab6-449a-87bd-3ba74fdc1777
+  ws-opts:
+    headers:
+      Host: us3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 194_4@290
+  network: ws
+  port: 80
+  server: 104.18.15.147
   skip-cert-verify: true
   type: vmess
   uuid: f425df23-6ab6-449a-87bd-3ba74fdc1777
@@ -11131,21 +11321,6 @@ proxies:
     path: /chcara
 - alterId: 64
   cipher: auto
-  name: 韩国 006_4@655
-  network: ws
-  port: 443
-  server: 202.79.171.239
-  servername: www.46130221.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: fb3583a3-7717-4fe5-9146-3301861f9f41
-  ws-opts:
-    headers:
-      Host: www.46130221.xyz
-    path: /path/143534141104
-- alterId: 64
-  cipher: auto
   name: 韩国 007_4@656
   network: ws
   port: 443
@@ -11512,6 +11687,19 @@ proxies:
     headers:
       Host: vay.nuggetsecure.buzz
     path: /main
+- alterId: 0
+  cipher: auto
+  name: 越南 018_4@685
+  network: ws
+  port: 80
+  server: skyht2.vpndata.vn
+  skip-cert-verify: true
+  type: vmess
+  uuid: fbccfed7-1aeb-416a-a4fd-7af1747f9f3b
+  ws-opts:
+    headers:
+      Host: lienquan.garena.vn
+    path: /VPNDATA.VPN
 - alterId: 0
   cipher: auto
   name: 日本 005_4@686
@@ -13088,19 +13276,6 @@ proxies:
   uuid: 4bfb8080-df81-44eb-9bcb-5d0ab8f667ba
 - alterId: 0
   cipher: auto
-  name: 加拿大 435_4@818
-  network: ws
-  port: 2082
-  server: s1c.v2.v001sss.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      Host: s1c.v2.v001sss.xyz
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大 436_4@819
   network: ws
   port: 80
@@ -13111,20 +13286,6 @@ proxies:
   ws-opts:
     headers:
       Host: fr2e-portmapper.v2freevpn.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大 437_4@820
-  network: ws
-  port: 2095
-  server: 104.17.184.241
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cf855796-eaba-4dd2-b585-b1db65bb35ef
-  ws-opts:
-    headers:
-      Host: mgone_cdn.yunjisuan.cf
     path: /
 - alterId: 0
   cipher: auto
@@ -14135,6 +14296,19 @@ proxies:
   uuid: e4fb0b9b-7fcc-43de-a636-a5a70e0e2226
 - alterId: 0
   cipher: auto
+  name: 立陶宛 003_4@906
+  network: ws
+  port: 80
+  server: 94.131.13.110
+  skip-cert-verify: true
+  type: vmess
+  uuid: d3e40d59-b53c-4f4e-8867-bb598be864d2
+  ws-opts:
+    headers:
+      Host: lt1-vmess.sshmax.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
   name: 美国 225_4@907
   network: ws
   port: 443
@@ -14348,19 +14522,6 @@ proxies:
     path: /4gchill.com
 - alterId: 0
   cipher: auto
-  name: 加拿大 488_4@925
-  network: ws
-  port: 2052
-  server: biezaicuoguoxyz.qiliqili.store
-  skip-cert-verify: true
-  type: vmess
-  uuid: 690022a4-a578-497b-906e-d92f53f8ed5d
-  ws-opts:
-    headers:
-      Host: cuoguouk.qiliqili.store
-    path: /
-- alterId: 0
-  cipher: auto
   name: 俄罗斯 006_4@926
   network: ws
   port: 80
@@ -14437,6 +14598,19 @@ proxies:
     headers:
       Host: vn2.4gchill.com
     path: /4gchill.com
+- alterId: 0
+  cipher: auto
+  name: 越南 027_4@932
+  network: ws
+  port: 80
+  server: 115.79.238.34
+  skip-cert-verify: true
+  type: vmess
+  uuid: fbccfed7-1aeb-416a-a4fd-7af1747f9f3b
+  ws-opts:
+    headers:
+      Host: skyht2.vpndata.vn
+    path: /VPNDATA.VPN
 - alterId: 0
   cipher: auto
   name: 美国 230_4@933
@@ -14835,6 +15009,19 @@ proxies:
     headers:
       Host: sg.baipiao.fixddns.store
     path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 加拿大 501_4@966
+  network: ws
+  port: 80
+  server: 172.64.229.1
+  skip-cert-verify: true
+  type: vmess
+  uuid: 58f4f326-7032-4ef8-bfde-1908bae74994
+  ws-opts:
+    headers:
+      Host: jpli.edge.233.tw
+    path: /geg/45?ed=2048
 - alterId: 64
   cipher: auto
   name: 美国 242_4@968
@@ -14875,6 +15062,19 @@ proxies:
     headers:
       Host: cdn.vpnsell.beauty
     path: /
+- alterId: 0
+  cipher: auto
+  name: 爱沙尼亚 001_4@971
+  network: ws
+  port: 80
+  server: ee2-vmess.sshmax.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: c1ebe8c7-bdd9-4aca-a2f7-01bea79279b3
+  ws-opts:
+    headers:
+      Host: ee2-vmess.sshmax.xyz
+    path: /vmess
 - alterId: 64
   cipher: auto
   name: 美国 243_4@972
@@ -14983,19 +15183,6 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 葡萄牙 001_4@980
-  network: ws
-  port: 80
-  server: pt2-vmess.sshmax.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695
-  ws-opts:
-    headers:
-      Host: pt2-vmess.sshmax.xyz
-    path: /vmess
-- alterId: 0
-  cipher: auto
   name: 新加坡 029_4@981
   network: ws
   port: 2023
@@ -15007,37 +15194,33 @@ proxies:
     headers:
       Host: imo.im
     path: /FREE-not_for_sale
-- name: 🇨🇳_CN_中国->🇦🇹_AT_奥地利_6@6
-  network: tcp
-  password: c71b7574-aeaa-40f0-989b-47f3fe7ac85a
-  port: 10848
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
-- name: 🇨🇳_CN_中国->🇺🇸_US_美国_6@7
-  network: tcp
-  password: c71b7574-aeaa-40f0-989b-47f3fe7ac85a
-  port: 10847
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_6_6@10
-  network: ws
-  port: 8080
-  server: 95.164.46.154
+  name: 法国 003_4@982
+  network: grpc
+  port: 2083
+  server: 141.101.122.55
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
-  uuid: 431fda16-e0f8-4884-b4fd-965f03f86471
-  ws-opts:
-    path: /vmess
-- name: 🇰🇷_KR_韩国_6@13
+  uuid: 8354f73d-1f51-4445-8d73-b917cde3b469
+- alterId: 0
+  cipher: auto
+  name: 法国 004_4@983
+  network: grpc
+  port: 2083
+  server: 141.101.122.220
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8354f73d-1f51-4445-8d73-b917cde3b469
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳_CN_中国->🇮🇳_IN_印度_6@5
+  password: cfa17a0d-5e7d-4871-976e-f116e0818123
+  port: 21003
+  server: service.ouluyun9803.com
+  type: ss
+- name: 🇰🇷_KR_韩国_6@20
   network: tcp
   password: 6x8HcghsjS
   port: 10003
@@ -15059,13 +15242,13 @@ proxies:
   server: 167.88.61.175
   type: ss
 - cipher: aes-256-gcm
-  name: SS-法国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.172:9102_7@2
+  name: SS-法国:美国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.172:9102_7@2
   password: e4FCWrgpkji3QY
   port: 9102
   server: 149.202.82.172
   type: ss
 - cipher: aes-256-cfb
-  name: SSR-秘鲁:美国-解锁NF-ChatGPT-TikTok-YouTubePrem-190.120.229.28:989_7@3
+  name: SSR-秘鲁-解锁NF-ChatGPT-TikTok-YouTubePrem-190.120.229.28:989_7@3
   obfs: plain
   password: f8f7aCzcPKbsF8p3
   port: 989
@@ -15073,7 +15256,7 @@ proxies:
   server: 190.120.229.28
   type: ssr
 - cipher: aes-256-gcm
-  name: SS-法国:俄罗斯联邦-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.181:7307_7@4
+  name: SS-法国:荷兰-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.181:7307_7@4
   password: FoOiGlkAA9yPEGP
   port: 7307
   server: 54.36.174.181
@@ -15133,19 +15316,19 @@ proxies:
   server: 38.68.134.9
   type: ss
 - cipher: aes-256-gcm
-  name: SS-波兰:俄罗斯联邦-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.200:6379_7@14
+  name: SS-波兰-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.200:6379_7@14
   password: zDNVedRFPQexG9v
   port: 6379
   server: 51.77.53.200
   type: ss
 - cipher: aes-256-gcm
-  name: SS-法国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.172:5003_7@15
+  name: SS-法国:美国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.172:5003_7@15
   password: g5MeD6Ft3CWlJId
   port: 5003
   server: 149.202.82.172
   type: ss
 - cipher: aes-256-gcm
-  name: SS-波兰-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.200:5004_7@16
+  name: SS-波兰:俄罗斯联邦-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.200:5004_7@16
   password: g5MeD6Ft3CWlJId
   port: 5004
   server: 51.77.53.200
@@ -15168,6 +15351,20 @@ proxies:
   port: 5500
   server: 38.68.134.9
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 中国【付费推荐：https://jdyvip.link/】99_9@9
+  password: cfa17a0d-5e7d-4871-976e-f116e0818123
+  port: 20003
+  server: service.ouluyun9803.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 中国【付费推荐：https://jdyvip.link/】103_9@12
+  password: cfa17a0d-5e7d-4871-976e-f116e0818123
+  port: 26668
+  server: service.ouluyun9803.com
+  type: ss
+  udp: true
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
@@ -15230,7 +15427,7 @@ proxy-groups:
   - 🇨🇷_CR_哥斯达黎加->🇩🇪_DE_德国_2@45
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1_2@46
   - 🇺🇸_US_美国->🇩🇪_DE_德国_2_2@47
-  - 🏁RELAY-198.41.223.37-016_3@16
+  - 🏁RELAY-198.41.223.6-016_3@16
   - 🇸🇬SG-52.221.255.59-017_3@17
   - 🇸🇬SG-129.150.44.226-018_3@18
   - 🇨🇳CN-120.233.42.199-019_3@19
@@ -15262,7 +15459,7 @@ proxy-groups:
   - 🇮🇩ID-103.8.79.138-051_3@51
   - 🇳🇱NL-104.193.8.253-052_3@52
   - 🏁RELAY-172.67.199.34-053_3@53
-  - 🏁RELAY-104.16.210.157-054_3@54
+  - 🏁RELAY-172.64.141.75-054_3@54
   - 🏁RELAY-190.93.245.4-055_3@55
   - 🇩🇪DE-52.58.78.16-056_3@56
   - 🏁RELAY-23.227.38.100-057_3@57
@@ -15283,7 +15480,7 @@ proxy-groups:
   - 🇩🇪DE-3.64.163.50-072_3@72
   - 🏁RELAY-188.114.99.11-073_3@73
   - 🏁RELAY-185.162.228.230-075_3@75
-  - 🏁RELAY-172.67.73.208-077_3@77
+  - 🏁RELAY-104.26.9.112-077_3@77
   - 🏁RELAY-162.159.128.7-080_3@80
   - 🇦🇶NOWHERE-0.0.0.0-082_3@82
   - 🏁RELAY-190.93.244.2-084_3@84
@@ -15297,7 +15494,7 @@ proxy-groups:
   - 🏁RELAY-198.41.212.122-094_3@94
   - 🇦🇶GOOGLE-34.145.145.76-095_3@95
   - 🏁RELAY-141.193.213.10-096_3@96
-  - 🏁RELAY-141.193.213.21-097_3@97
+  - 🏁RELAY-141.193.213.20-097_3@97
   - 🏁RELAY-141.193.213.20-100_3@100
   - 🏁RELAY-162.159.135.42-101_3@101
   - 🇦🇶NOWHERE-0.0.0.0-102_3@102
@@ -15311,7 +15508,7 @@ proxy-groups:
   - 🏁RELAY-172.67.199.34-113_3@113
   - 🇦🇶NOWHERE-0.0.0.0-114_3@114
   - 🏁RELAY-172.67.34.78-115_3@115
-  - 🏁RELAY-104.16.67.38-117_3@117
+  - 🏁RELAY-104.16.68.38-117_3@117
   - 🇦🇶NOWHERE-0.0.0.0-118_3@118
   - 🇺🇸US-72.52.178.23-120_3@120
   - 🇦🇶NOWHERE-0.0.0.0-122_3@122
@@ -15319,7 +15516,7 @@ proxy-groups:
   - 🏁RELAY-172.67.164.125-124_3@124
   - 🏁RELAY-141.101.115.30-125_3@125
   - 🇺🇸US-209.209.112.27-127_3@127
-  - 🏁RELAY-104.21.21.147-129_3@129
+  - 🏁RELAY-172.67.199.34-129_3@129
   - 🏁RELAY-198.41.212.123-130_3@130
   - 🇦🇶NOWHERE-0.0.0.0-133_3@133
   - 🏁RELAY-141.101.114.32-135_3@135
@@ -15338,72 +15535,85 @@ proxy-groups:
   - 🇷🇺RU-45.136.244.181-155_3@155
   - 🇷🇺RU-176.32.35.22-156_3@156
   - 🇦🇶NOWHERE-0.0.0.0-159_3@159
-  - 🇱🇹LT-94.131.13.110-161_3@161
-  - 🇬🇧GB-172.99.190.109-162_3@162
-  - 🇪🇪EE-95.164.8.106-164_3@164
-  - 🏁RELAY-104.21.69.44-165_3@165
-  - 🇻🇳VN-115.79.238.34-166_3@166
-  - 🇻🇳VN-115.79.238.34-167_3@167
-  - 🏁RELAY-162.159.133.174-168_3@168
-  - 🇸🇪SE-70.34.202.241-169_3@169
-  - 🇨🇳CN-183.233.187.235-170_3@170
-  - 🇨🇳CN-183.233.187.230-171_3@171
-  - 🇨🇳CN-120.233.42.199-172_3@172
-  - 🇸🇬SG-13.213.46.196-173_3@173
-  - 🇯🇵JP-54.199.83.239-174_3@174
-  - 🇸🇬SG-54.251.168.143-175_3@175
-  - 🇨🇳CN-117.149.247.11-176_3@176
-  - 🇦🇶NOWHERE-0.0.0.0-177_3@177
-  - 🇦🇶NOWHERE-0.0.0.0-178_3@178
-  - 🇸🇬SG-159.223.94.156-179_3@179
-  - 🏁RELAY-104.21.67.88-180_3@180
-  - 🇬🇧GB-13.43.223.6-182_3@182
-  - 🏁RELAY-188.114.98.0-186_3@186
-  - 🇨🇳CN-112.29.200.89-189_3@189
-  - 🇬🇧GB-13.43.223.6-190_3@190
-  - 🇺🇸US-23.142.200.175-191_3@191
-  - 🇬🇧GB-13.43.223.6-192_3@192
-  - 🇩🇪DE-149.40.62.114-194_3@194
-  - 🇮🇪IE-34.250.53.126-195_3@195
-  - 🇹🇼TW-118.167.69.122-196_3@196
-  - 🏁RELAY-104.17.25.2-197_3@197
-  - 🇹🇼TW-118.167.76.233-198_3@198
-  - 🏁RELAY-104.17.25.1-199_3@199
-  - 🇬🇧GB-13.43.223.6-200_3@200
-  - 🇻🇳VN-42.96.11.242-201_3@201
-  - 🇹🇼TW-36.232.158.210-203_3@203
-  - 🇨🇳CN-183.236.51.7-204_3@204
-  - 🇨🇳CN-183.236.51.7-205_3@205
-  - 🇨🇳CN-183.236.51.7-206_3@206
-  - 🇨🇳CN-183.236.51.7-207_3@207
-  - 🇨🇳CN-183.236.51.7-208_3@208
-  - 🇨🇳CN-183.236.51.6-209_3@209
-  - 🇨🇳CN-183.236.51.7-210_3@210
-  - 🇨🇳CN-183.236.51.7-211_3@211
-  - 🇨🇳CN-183.236.51.6-212_3@212
-  - 🇨🇳CN-183.236.51.6-213_3@213
-  - 🇨🇳CN-183.236.51.6-214_3@214
+  - 🇹🇼TW-118.167.69.122-160_3@160
+  - 🇹🇼TW-118.167.76.233-161_3@161
+  - 🇹🇼TW-118.167.76.233-162_3@162
+  - 🇬🇧GB-13.42.187.141-163_3@163
+  - 🇹🇼TW-36.232.158.210-165_3@165
+  - 🇵🇹PT-94.131.10.135-166_3@166
+  - 🏁RELAY-172.67.217.144-167_3@167
+  - 🏁RELAY-104.18.96.67-168_3@168
+  - 🇬🇧GB-18.168.78.229-169_3@169
+  - 🏁RELAY-104.31.16.104-170_3@170
+  - 🏁RELAY-104.21.23.176-171_3@171
+  - 🇵🇹PT-94.131.10.135-172_3@172
+  - 🏁RELAY-104.17.184.241-173_3@173
+  - 🇬🇧GB-172.99.190.109-174_3@174
+  - 🇻🇳VN-103.154.62.18-176_3@176
+  - 🇺🇦UA-185.158.211.186-177_3@177
+  - 🇨🇳CN-183.233.187.235-178_3@178
+  - 🏁RELAY-104.21.8.157-180_3@180
+  - 🇨🇳CN-120.233.42.199-181_3@181
+  - 🏁RELAY-104.17.25.1-182_3@182
+  - 🇬🇧GB-18.168.78.229-184_3@184
+  - 🇸🇬SG-13.213.46.196-185_3@185
+  - 🇯🇵JP-54.199.83.239-186_3@186
+  - 🇸🇬SG-54.251.168.143-187_3@187
+  - 🇨🇳CN-117.149.247.11-188_3@188
+  - 🇦🇶NOWHERE-0.0.0.0-189_3@189
+  - 🇦🇶NOWHERE-0.0.0.0-190_3@190
+  - 🇸🇬SG-159.223.94.156-191_3@191
+  - 🏁RELAY-172.67.219.34-192_3@192
+  - 🇺🇸US-44.230.99.253-193_3@193
+  - 🇬🇧GB-18.168.78.229-194_3@194
+  - 🇮🇪IE-63.34.59.40-195_3@195
+  - 🇨🇳CN-112.29.200.89-196_3@196
+  - 🏁RELAY-198.41.223.234-197_3@197
+  - 🇬🇧GB-13.41.121.112-198_3@198
+  - 🏁RELAY-172.67.194.156-200_3@200
+  - 🏁RELAY-104.21.83.10-201_3@201
+  - 🇹🇼TW-36.238.156.2-203_3@203
+  - 🇮🇶IQ-130.193.166.2-205_3@205
+  - 🇬🇧GB-3.11.123.54-206_3@206
+  - 🇩🇪DE-18.185.201.37-207_3@207
+  - 🏁RELAY-104.17.25.2-208_3@208
+  - 🇨🇳CN-36.139.104.222-209_3@209
+  - 🇸🇪SE-51.21.11.122-210_3@210
+  - 🇫🇷FR-51.210.182.170-211_3@211
+  - 🇨🇳CN-183.240.113.235-212_3@212
+  - 🇨🇳CN-36.139.104.222-214_3@214
   - 🇨🇳CN-183.236.51.7-215_3@215
   - 🇨🇳CN-183.236.51.7-216_3@216
-  - 🇨🇳CN-183.236.51.6-217_3@217
+  - 🇨🇳CN-183.236.51.7-217_3@217
   - 🇨🇳CN-183.236.51.7-218_3@218
   - 🇨🇳CN-183.236.51.7-219_3@219
-  - 🏁RELAY-104.18.203.232-221_3@220
-  - 🇫🇷FR-15.188.169.85-223_3@222
-  - 🇸🇪SE-51.21.59.154-224_3@223
-  - 🇨🇳CN-223.113.130.152-225_3@224
-  - 🇩🇪DE-18.185.210.108-227_3@226
-  - 🇫🇷FR-15.188.2.151-230_3@229
-  - 🇬🇧GB-13.42.93.32-234_3@233
-  - 🇬🇧GB-3.11.170.62-236_3@235
-  - 🇨🇳CN-183.233.187.230-237_3@236
-  - 🇮🇪IE-54.75.182.210-238_3@237
-  - 🇮🇪IE-79.125.70.132-239_3@238
-  - 🇬🇧GB-18.133.96.161-240_3@239
-  - 🇩🇪DE-18.185.201.37-242_3@241
-  - 🏁RELAY-172.64.229.1-243_3@242
-  - 🇨🇳CN-183.233.187.235-245_3@244
-  - 🏁RELAY-104.18.15.147-251_3@250
+  - 🇨🇳CN-183.236.51.6-220_3@220
+  - 🇨🇳CN-183.236.51.7-221_3@221
+  - 🇨🇳CN-183.236.51.7-222_3@222
+  - 🇨🇳CN-183.236.51.6-223_3@223
+  - 🇨🇳CN-183.236.51.6-224_3@224
+  - 🇨🇳CN-183.236.51.6-225_3@225
+  - 🇨🇳CN-183.236.51.7-226_3@226
+  - 🇨🇳CN-183.236.51.7-227_3@227
+  - 🇨🇳CN-183.236.51.6-228_3@228
+  - 🇨🇳CN-183.236.51.7-229_3@229
+  - 🇨🇳CN-183.236.51.7-230_3@230
+  - 🇹🇼TW-36.232.158.210-233_3@232
+  - 🇨🇳CN-112.29.200.89-234_3@233
+  - 🇫🇷FR-15.188.2.151-235_3@234
+  - 🏁RELAY-172.67.184.13-236_3@235
+  - 🇬🇧GB-18.168.78.229-237_3@236
+  - 🇮🇪IE-34.250.53.126-238_3@237
+  - 🇩🇪DE-18.192.144.31-239_3@238
+  - 🇸🇪SE-51.21.110.130-240_3@239
+  - 🇨🇳CN-183.236.51.7-242_3@241
+  - 🇨🇳CN-112.29.200.89-243_3@242
+  - 🇸🇬SG-202.79.171.239-244_3@243
+  - 🇫🇷FR-51.158.150.168-247_3@246
+  - 🇸🇪SE-16.171.76.145-248_3@247
+  - 🏁RELAY-188.114.98.0-249_3@248
+  - 🇹🇼TW-118.167.69.122-250_3@249
+  - 🇬🇧GB-18.168.161.11-251_3@250
   - 加拿大 001_4@0
   - 加拿大 002_4@1
   - 美国 001_4@2
@@ -15459,6 +15669,7 @@ proxy-groups:
   - 加拿大 041_4@52
   - 美国 011_4@53
   - 美国 012_4@54
+  - 加拿大 042_4@55
   - 加拿大 043_4@56
   - 加拿大 044_4@57
   - 加拿大 045_4@58
@@ -15614,7 +15825,6 @@ proxy-groups:
   - 加拿大 153_4@209
   - 加拿大 154_4@210
   - 德国 003_4@211
-  - 加拿大 155_4@212
   - 加拿大 156_4@213
   - 加拿大 157_4@214
   - 加拿大 158_4@215
@@ -15689,6 +15899,7 @@ proxy-groups:
   - 加拿大 191_4@287
   - 加拿大 192_4@288
   - 加拿大 193_4@289
+  - 加拿大 194_4@290
   - 加拿大 195_4@292
   - 加拿大 200_4@297
   - 加拿大 201_4@298
@@ -16035,7 +16246,6 @@ proxy-groups:
   - 加拿大 382_4@652
   - 加拿大 383_4@653
   - 美国 169_4@654
-  - 韩国 006_4@655
   - 韩国 007_4@656
   - 加拿大 384_4@657
   - 加拿大 385_4@658
@@ -16065,6 +16275,7 @@ proxy-groups:
   - 新加坡 012_4@682
   - 越南 017_4@683
   - 加拿大 388_4@684
+  - 越南 018_4@685
   - 日本 005_4@686
   - 越南 019_4@687
   - 香港 005_4@688
@@ -16195,9 +16406,7 @@ proxy-groups:
   - 加拿大 432_4@815
   - 加拿大 433_4@816
   - 加拿大 434_4@817
-  - 加拿大 435_4@818
   - 加拿大 436_4@819
-  - 加拿大 437_4@820
   - 韩国 019_4@821
   - 伊朗 006_4@822
   - 德国 015_4@823
@@ -16277,6 +16486,7 @@ proxy-groups:
   - 加拿大 486_4@903
   - 美国 224_4@904
   - 立陶宛 002_4@905
+  - 立陶宛 003_4@906
   - 美国 225_4@907
   - 伊朗 008_4@909
   - 加拿大 487_4@910
@@ -16294,13 +16504,13 @@ proxy-groups:
   - 美国 228_4@922
   - 美国 229_4@923
   - 越南 025_4@924
-  - 加拿大 488_4@925
   - 俄罗斯 006_4@926
   - 加拿大 489_4@927
   - 新加坡 026_4@928
   - 西班牙 001_4@929
   - 俄罗斯 007_4@930
   - 越南 026_4@931
+  - 越南 027_4@932
   - 美国 230_4@933
   - 美国 231_4@934
   - 美国 232_4@935
@@ -16332,9 +16542,11 @@ proxy-groups:
   - 加拿大 497_4@962
   - 加拿大 499_4@964
   - 加拿大 500_4@965
+  - 加拿大 501_4@966
   - 美国 242_4@968
   - 加拿大 502_4@969
   - 加拿大 503_4@970
+  - 爱沙尼亚 001_4@971
   - 美国 243_4@972
   - 英国 012_4@973
   - 越南 028_4@974
@@ -16343,17 +16555,16 @@ proxy-groups:
   - 美国 245_4@977
   - 美国 246_4@978
   - 韩国 022_4@979
-  - 葡萄牙 001_4@980
   - 新加坡 029_4@981
-  - 🇨🇳_CN_中国->🇦🇹_AT_奥地利_6@6
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_6@7
-  - 🇺🇸_US_美国_6_6@10
-  - 🇰🇷_KR_韩国_6@13
+  - 法国 003_4@982
+  - 法国 004_4@983
+  - 🇨🇳_CN_中国->🇮🇳_IN_印度_6@5
+  - 🇰🇷_KR_韩国_6@20
   - SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.202:2375_7@0
   - SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-167.88.61.175:5004_7@1
-  - SS-法国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.172:9102_7@2
-  - SSR-秘鲁:美国-解锁NF-ChatGPT-TikTok-YouTubePrem-190.120.229.28:989_7@3
-  - SS-法国:俄罗斯联邦-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.181:7307_7@4
+  - SS-法国:美国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.172:9102_7@2
+  - SSR-秘鲁-解锁NF-ChatGPT-TikTok-YouTubePrem-190.120.229.28:989_7@3
+  - SS-法国:荷兰-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.181:7307_7@4
   - SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.75.136.135:8118_7@5
   - SS-法国:波兰-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.181:8118_7@6
   - SS-德国-locked-ChatGPT-TikTok-YouTubePrem-217.182.198.219:2376_7@7
@@ -16363,12 +16574,14 @@ proxy-groups:
   - SS-德国:法国-locked-ChatGPT-TikTok-YouTubePrem-145.239.1.100:5001_7@11
   - SS-英国-自制NF-ChatGPT-TikTok-YouTubePrem-212.102.53.79:443_7@12
   - SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.9:8008_7@13
-  - SS-波兰:俄罗斯联邦-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.200:6379_7@14
-  - SS-法国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.172:5003_7@15
-  - SS-波兰-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.200:5004_7@16
+  - SS-波兰-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.200:6379_7@14
+  - SS-法国:美国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.172:5003_7@15
+  - SS-波兰:俄罗斯联邦-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.200:5004_7@16
   - SS-美国-locked-ChatGPT-TikTok-YouTubePrem-167.88.61.175:5000_7@17
   - SS-法国:波兰-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.181:8000_7@18
   - SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.9:5500_7@19
+  - 🇨🇳 中国【付费推荐：https://jdyvip.link/】99_9@9
+  - 🇨🇳 中国【付费推荐：https://jdyvip.link/】103_9@12
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -16430,7 +16643,7 @@ proxy-groups:
   - 🇨🇷_CR_哥斯达黎加->🇩🇪_DE_德国_2@45
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1_2@46
   - 🇺🇸_US_美国->🇩🇪_DE_德国_2_2@47
-  - 🏁RELAY-198.41.223.37-016_3@16
+  - 🏁RELAY-198.41.223.6-016_3@16
   - 🇸🇬SG-52.221.255.59-017_3@17
   - 🇸🇬SG-129.150.44.226-018_3@18
   - 🇨🇳CN-120.233.42.199-019_3@19
@@ -16462,7 +16675,7 @@ proxy-groups:
   - 🇮🇩ID-103.8.79.138-051_3@51
   - 🇳🇱NL-104.193.8.253-052_3@52
   - 🏁RELAY-172.67.199.34-053_3@53
-  - 🏁RELAY-104.16.210.157-054_3@54
+  - 🏁RELAY-172.64.141.75-054_3@54
   - 🏁RELAY-190.93.245.4-055_3@55
   - 🇩🇪DE-52.58.78.16-056_3@56
   - 🏁RELAY-23.227.38.100-057_3@57
@@ -16483,7 +16696,7 @@ proxy-groups:
   - 🇩🇪DE-3.64.163.50-072_3@72
   - 🏁RELAY-188.114.99.11-073_3@73
   - 🏁RELAY-185.162.228.230-075_3@75
-  - 🏁RELAY-172.67.73.208-077_3@77
+  - 🏁RELAY-104.26.9.112-077_3@77
   - 🏁RELAY-162.159.128.7-080_3@80
   - 🇦🇶NOWHERE-0.0.0.0-082_3@82
   - 🏁RELAY-190.93.244.2-084_3@84
@@ -16497,7 +16710,7 @@ proxy-groups:
   - 🏁RELAY-198.41.212.122-094_3@94
   - 🇦🇶GOOGLE-34.145.145.76-095_3@95
   - 🏁RELAY-141.193.213.10-096_3@96
-  - 🏁RELAY-141.193.213.21-097_3@97
+  - 🏁RELAY-141.193.213.20-097_3@97
   - 🏁RELAY-141.193.213.20-100_3@100
   - 🏁RELAY-162.159.135.42-101_3@101
   - 🇦🇶NOWHERE-0.0.0.0-102_3@102
@@ -16511,7 +16724,7 @@ proxy-groups:
   - 🏁RELAY-172.67.199.34-113_3@113
   - 🇦🇶NOWHERE-0.0.0.0-114_3@114
   - 🏁RELAY-172.67.34.78-115_3@115
-  - 🏁RELAY-104.16.67.38-117_3@117
+  - 🏁RELAY-104.16.68.38-117_3@117
   - 🇦🇶NOWHERE-0.0.0.0-118_3@118
   - 🇺🇸US-72.52.178.23-120_3@120
   - 🇦🇶NOWHERE-0.0.0.0-122_3@122
@@ -16519,7 +16732,7 @@ proxy-groups:
   - 🏁RELAY-172.67.164.125-124_3@124
   - 🏁RELAY-141.101.115.30-125_3@125
   - 🇺🇸US-209.209.112.27-127_3@127
-  - 🏁RELAY-104.21.21.147-129_3@129
+  - 🏁RELAY-172.67.199.34-129_3@129
   - 🏁RELAY-198.41.212.123-130_3@130
   - 🇦🇶NOWHERE-0.0.0.0-133_3@133
   - 🏁RELAY-141.101.114.32-135_3@135
@@ -16538,72 +16751,85 @@ proxy-groups:
   - 🇷🇺RU-45.136.244.181-155_3@155
   - 🇷🇺RU-176.32.35.22-156_3@156
   - 🇦🇶NOWHERE-0.0.0.0-159_3@159
-  - 🇱🇹LT-94.131.13.110-161_3@161
-  - 🇬🇧GB-172.99.190.109-162_3@162
-  - 🇪🇪EE-95.164.8.106-164_3@164
-  - 🏁RELAY-104.21.69.44-165_3@165
-  - 🇻🇳VN-115.79.238.34-166_3@166
-  - 🇻🇳VN-115.79.238.34-167_3@167
-  - 🏁RELAY-162.159.133.174-168_3@168
-  - 🇸🇪SE-70.34.202.241-169_3@169
-  - 🇨🇳CN-183.233.187.235-170_3@170
-  - 🇨🇳CN-183.233.187.230-171_3@171
-  - 🇨🇳CN-120.233.42.199-172_3@172
-  - 🇸🇬SG-13.213.46.196-173_3@173
-  - 🇯🇵JP-54.199.83.239-174_3@174
-  - 🇸🇬SG-54.251.168.143-175_3@175
-  - 🇨🇳CN-117.149.247.11-176_3@176
-  - 🇦🇶NOWHERE-0.0.0.0-177_3@177
-  - 🇦🇶NOWHERE-0.0.0.0-178_3@178
-  - 🇸🇬SG-159.223.94.156-179_3@179
-  - 🏁RELAY-104.21.67.88-180_3@180
-  - 🇬🇧GB-13.43.223.6-182_3@182
-  - 🏁RELAY-188.114.98.0-186_3@186
-  - 🇨🇳CN-112.29.200.89-189_3@189
-  - 🇬🇧GB-13.43.223.6-190_3@190
-  - 🇺🇸US-23.142.200.175-191_3@191
-  - 🇬🇧GB-13.43.223.6-192_3@192
-  - 🇩🇪DE-149.40.62.114-194_3@194
-  - 🇮🇪IE-34.250.53.126-195_3@195
-  - 🇹🇼TW-118.167.69.122-196_3@196
-  - 🏁RELAY-104.17.25.2-197_3@197
-  - 🇹🇼TW-118.167.76.233-198_3@198
-  - 🏁RELAY-104.17.25.1-199_3@199
-  - 🇬🇧GB-13.43.223.6-200_3@200
-  - 🇻🇳VN-42.96.11.242-201_3@201
-  - 🇹🇼TW-36.232.158.210-203_3@203
-  - 🇨🇳CN-183.236.51.7-204_3@204
-  - 🇨🇳CN-183.236.51.7-205_3@205
-  - 🇨🇳CN-183.236.51.7-206_3@206
-  - 🇨🇳CN-183.236.51.7-207_3@207
-  - 🇨🇳CN-183.236.51.7-208_3@208
-  - 🇨🇳CN-183.236.51.6-209_3@209
-  - 🇨🇳CN-183.236.51.7-210_3@210
-  - 🇨🇳CN-183.236.51.7-211_3@211
-  - 🇨🇳CN-183.236.51.6-212_3@212
-  - 🇨🇳CN-183.236.51.6-213_3@213
-  - 🇨🇳CN-183.236.51.6-214_3@214
+  - 🇹🇼TW-118.167.69.122-160_3@160
+  - 🇹🇼TW-118.167.76.233-161_3@161
+  - 🇹🇼TW-118.167.76.233-162_3@162
+  - 🇬🇧GB-13.42.187.141-163_3@163
+  - 🇹🇼TW-36.232.158.210-165_3@165
+  - 🇵🇹PT-94.131.10.135-166_3@166
+  - 🏁RELAY-172.67.217.144-167_3@167
+  - 🏁RELAY-104.18.96.67-168_3@168
+  - 🇬🇧GB-18.168.78.229-169_3@169
+  - 🏁RELAY-104.31.16.104-170_3@170
+  - 🏁RELAY-104.21.23.176-171_3@171
+  - 🇵🇹PT-94.131.10.135-172_3@172
+  - 🏁RELAY-104.17.184.241-173_3@173
+  - 🇬🇧GB-172.99.190.109-174_3@174
+  - 🇻🇳VN-103.154.62.18-176_3@176
+  - 🇺🇦UA-185.158.211.186-177_3@177
+  - 🇨🇳CN-183.233.187.235-178_3@178
+  - 🏁RELAY-104.21.8.157-180_3@180
+  - 🇨🇳CN-120.233.42.199-181_3@181
+  - 🏁RELAY-104.17.25.1-182_3@182
+  - 🇬🇧GB-18.168.78.229-184_3@184
+  - 🇸🇬SG-13.213.46.196-185_3@185
+  - 🇯🇵JP-54.199.83.239-186_3@186
+  - 🇸🇬SG-54.251.168.143-187_3@187
+  - 🇨🇳CN-117.149.247.11-188_3@188
+  - 🇦🇶NOWHERE-0.0.0.0-189_3@189
+  - 🇦🇶NOWHERE-0.0.0.0-190_3@190
+  - 🇸🇬SG-159.223.94.156-191_3@191
+  - 🏁RELAY-172.67.219.34-192_3@192
+  - 🇺🇸US-44.230.99.253-193_3@193
+  - 🇬🇧GB-18.168.78.229-194_3@194
+  - 🇮🇪IE-63.34.59.40-195_3@195
+  - 🇨🇳CN-112.29.200.89-196_3@196
+  - 🏁RELAY-198.41.223.234-197_3@197
+  - 🇬🇧GB-13.41.121.112-198_3@198
+  - 🏁RELAY-172.67.194.156-200_3@200
+  - 🏁RELAY-104.21.83.10-201_3@201
+  - 🇹🇼TW-36.238.156.2-203_3@203
+  - 🇮🇶IQ-130.193.166.2-205_3@205
+  - 🇬🇧GB-3.11.123.54-206_3@206
+  - 🇩🇪DE-18.185.201.37-207_3@207
+  - 🏁RELAY-104.17.25.2-208_3@208
+  - 🇨🇳CN-36.139.104.222-209_3@209
+  - 🇸🇪SE-51.21.11.122-210_3@210
+  - 🇫🇷FR-51.210.182.170-211_3@211
+  - 🇨🇳CN-183.240.113.235-212_3@212
+  - 🇨🇳CN-36.139.104.222-214_3@214
   - 🇨🇳CN-183.236.51.7-215_3@215
   - 🇨🇳CN-183.236.51.7-216_3@216
-  - 🇨🇳CN-183.236.51.6-217_3@217
+  - 🇨🇳CN-183.236.51.7-217_3@217
   - 🇨🇳CN-183.236.51.7-218_3@218
   - 🇨🇳CN-183.236.51.7-219_3@219
-  - 🏁RELAY-104.18.203.232-221_3@220
-  - 🇫🇷FR-15.188.169.85-223_3@222
-  - 🇸🇪SE-51.21.59.154-224_3@223
-  - 🇨🇳CN-223.113.130.152-225_3@224
-  - 🇩🇪DE-18.185.210.108-227_3@226
-  - 🇫🇷FR-15.188.2.151-230_3@229
-  - 🇬🇧GB-13.42.93.32-234_3@233
-  - 🇬🇧GB-3.11.170.62-236_3@235
-  - 🇨🇳CN-183.233.187.230-237_3@236
-  - 🇮🇪IE-54.75.182.210-238_3@237
-  - 🇮🇪IE-79.125.70.132-239_3@238
-  - 🇬🇧GB-18.133.96.161-240_3@239
-  - 🇩🇪DE-18.185.201.37-242_3@241
-  - 🏁RELAY-172.64.229.1-243_3@242
-  - 🇨🇳CN-183.233.187.235-245_3@244
-  - 🏁RELAY-104.18.15.147-251_3@250
+  - 🇨🇳CN-183.236.51.6-220_3@220
+  - 🇨🇳CN-183.236.51.7-221_3@221
+  - 🇨🇳CN-183.236.51.7-222_3@222
+  - 🇨🇳CN-183.236.51.6-223_3@223
+  - 🇨🇳CN-183.236.51.6-224_3@224
+  - 🇨🇳CN-183.236.51.6-225_3@225
+  - 🇨🇳CN-183.236.51.7-226_3@226
+  - 🇨🇳CN-183.236.51.7-227_3@227
+  - 🇨🇳CN-183.236.51.6-228_3@228
+  - 🇨🇳CN-183.236.51.7-229_3@229
+  - 🇨🇳CN-183.236.51.7-230_3@230
+  - 🇹🇼TW-36.232.158.210-233_3@232
+  - 🇨🇳CN-112.29.200.89-234_3@233
+  - 🇫🇷FR-15.188.2.151-235_3@234
+  - 🏁RELAY-172.67.184.13-236_3@235
+  - 🇬🇧GB-18.168.78.229-237_3@236
+  - 🇮🇪IE-34.250.53.126-238_3@237
+  - 🇩🇪DE-18.192.144.31-239_3@238
+  - 🇸🇪SE-51.21.110.130-240_3@239
+  - 🇨🇳CN-183.236.51.7-242_3@241
+  - 🇨🇳CN-112.29.200.89-243_3@242
+  - 🇸🇬SG-202.79.171.239-244_3@243
+  - 🇫🇷FR-51.158.150.168-247_3@246
+  - 🇸🇪SE-16.171.76.145-248_3@247
+  - 🏁RELAY-188.114.98.0-249_3@248
+  - 🇹🇼TW-118.167.69.122-250_3@249
+  - 🇬🇧GB-18.168.161.11-251_3@250
   - 加拿大 001_4@0
   - 加拿大 002_4@1
   - 美国 001_4@2
@@ -16659,6 +16885,7 @@ proxy-groups:
   - 加拿大 041_4@52
   - 美国 011_4@53
   - 美国 012_4@54
+  - 加拿大 042_4@55
   - 加拿大 043_4@56
   - 加拿大 044_4@57
   - 加拿大 045_4@58
@@ -16814,7 +17041,6 @@ proxy-groups:
   - 加拿大 153_4@209
   - 加拿大 154_4@210
   - 德国 003_4@211
-  - 加拿大 155_4@212
   - 加拿大 156_4@213
   - 加拿大 157_4@214
   - 加拿大 158_4@215
@@ -16889,6 +17115,7 @@ proxy-groups:
   - 加拿大 191_4@287
   - 加拿大 192_4@288
   - 加拿大 193_4@289
+  - 加拿大 194_4@290
   - 加拿大 195_4@292
   - 加拿大 200_4@297
   - 加拿大 201_4@298
@@ -17235,7 +17462,6 @@ proxy-groups:
   - 加拿大 382_4@652
   - 加拿大 383_4@653
   - 美国 169_4@654
-  - 韩国 006_4@655
   - 韩国 007_4@656
   - 加拿大 384_4@657
   - 加拿大 385_4@658
@@ -17265,6 +17491,7 @@ proxy-groups:
   - 新加坡 012_4@682
   - 越南 017_4@683
   - 加拿大 388_4@684
+  - 越南 018_4@685
   - 日本 005_4@686
   - 越南 019_4@687
   - 香港 005_4@688
@@ -17395,9 +17622,7 @@ proxy-groups:
   - 加拿大 432_4@815
   - 加拿大 433_4@816
   - 加拿大 434_4@817
-  - 加拿大 435_4@818
   - 加拿大 436_4@819
-  - 加拿大 437_4@820
   - 韩国 019_4@821
   - 伊朗 006_4@822
   - 德国 015_4@823
@@ -17477,6 +17702,7 @@ proxy-groups:
   - 加拿大 486_4@903
   - 美国 224_4@904
   - 立陶宛 002_4@905
+  - 立陶宛 003_4@906
   - 美国 225_4@907
   - 伊朗 008_4@909
   - 加拿大 487_4@910
@@ -17494,13 +17720,13 @@ proxy-groups:
   - 美国 228_4@922
   - 美国 229_4@923
   - 越南 025_4@924
-  - 加拿大 488_4@925
   - 俄罗斯 006_4@926
   - 加拿大 489_4@927
   - 新加坡 026_4@928
   - 西班牙 001_4@929
   - 俄罗斯 007_4@930
   - 越南 026_4@931
+  - 越南 027_4@932
   - 美国 230_4@933
   - 美国 231_4@934
   - 美国 232_4@935
@@ -17532,9 +17758,11 @@ proxy-groups:
   - 加拿大 497_4@962
   - 加拿大 499_4@964
   - 加拿大 500_4@965
+  - 加拿大 501_4@966
   - 美国 242_4@968
   - 加拿大 502_4@969
   - 加拿大 503_4@970
+  - 爱沙尼亚 001_4@971
   - 美国 243_4@972
   - 英国 012_4@973
   - 越南 028_4@974
@@ -17543,17 +17771,16 @@ proxy-groups:
   - 美国 245_4@977
   - 美国 246_4@978
   - 韩国 022_4@979
-  - 葡萄牙 001_4@980
   - 新加坡 029_4@981
-  - 🇨🇳_CN_中国->🇦🇹_AT_奥地利_6@6
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_6@7
-  - 🇺🇸_US_美国_6_6@10
-  - 🇰🇷_KR_韩国_6@13
+  - 法国 003_4@982
+  - 法国 004_4@983
+  - 🇨🇳_CN_中国->🇮🇳_IN_印度_6@5
+  - 🇰🇷_KR_韩国_6@20
   - SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.202:2375_7@0
   - SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-167.88.61.175:5004_7@1
-  - SS-法国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.172:9102_7@2
-  - SSR-秘鲁:美国-解锁NF-ChatGPT-TikTok-YouTubePrem-190.120.229.28:989_7@3
-  - SS-法国:俄罗斯联邦-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.181:7307_7@4
+  - SS-法国:美国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.172:9102_7@2
+  - SSR-秘鲁-解锁NF-ChatGPT-TikTok-YouTubePrem-190.120.229.28:989_7@3
+  - SS-法国:荷兰-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.181:7307_7@4
   - SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.75.136.135:8118_7@5
   - SS-法国:波兰-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.181:8118_7@6
   - SS-德国-locked-ChatGPT-TikTok-YouTubePrem-217.182.198.219:2376_7@7
@@ -17563,12 +17790,14 @@ proxy-groups:
   - SS-德国:法国-locked-ChatGPT-TikTok-YouTubePrem-145.239.1.100:5001_7@11
   - SS-英国-自制NF-ChatGPT-TikTok-YouTubePrem-212.102.53.79:443_7@12
   - SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.9:8008_7@13
-  - SS-波兰:俄罗斯联邦-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.200:6379_7@14
-  - SS-法国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.172:5003_7@15
-  - SS-波兰-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.200:5004_7@16
+  - SS-波兰-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.200:6379_7@14
+  - SS-法国:美国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.172:5003_7@15
+  - SS-波兰:俄罗斯联邦-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.200:5004_7@16
   - SS-美国-locked-ChatGPT-TikTok-YouTubePrem-167.88.61.175:5000_7@17
   - SS-法国:波兰-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.181:8000_7@18
   - SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.9:5500_7@19
+  - 🇨🇳 中国【付费推荐：https://jdyvip.link/】99_9@9
+  - 🇨🇳 中国【付费推荐：https://jdyvip.link/】103_9@12
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -17634,7 +17863,7 @@ proxy-groups:
   - 🇨🇷_CR_哥斯达黎加->🇩🇪_DE_德国_2@45
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1_2@46
   - 🇺🇸_US_美国->🇩🇪_DE_德国_2_2@47
-  - 🏁RELAY-198.41.223.37-016_3@16
+  - 🏁RELAY-198.41.223.6-016_3@16
   - 🇸🇬SG-52.221.255.59-017_3@17
   - 🇸🇬SG-129.150.44.226-018_3@18
   - 🇨🇳CN-120.233.42.199-019_3@19
@@ -17666,7 +17895,7 @@ proxy-groups:
   - 🇮🇩ID-103.8.79.138-051_3@51
   - 🇳🇱NL-104.193.8.253-052_3@52
   - 🏁RELAY-172.67.199.34-053_3@53
-  - 🏁RELAY-104.16.210.157-054_3@54
+  - 🏁RELAY-172.64.141.75-054_3@54
   - 🏁RELAY-190.93.245.4-055_3@55
   - 🇩🇪DE-52.58.78.16-056_3@56
   - 🏁RELAY-23.227.38.100-057_3@57
@@ -17687,7 +17916,7 @@ proxy-groups:
   - 🇩🇪DE-3.64.163.50-072_3@72
   - 🏁RELAY-188.114.99.11-073_3@73
   - 🏁RELAY-185.162.228.230-075_3@75
-  - 🏁RELAY-172.67.73.208-077_3@77
+  - 🏁RELAY-104.26.9.112-077_3@77
   - 🏁RELAY-162.159.128.7-080_3@80
   - 🇦🇶NOWHERE-0.0.0.0-082_3@82
   - 🏁RELAY-190.93.244.2-084_3@84
@@ -17701,7 +17930,7 @@ proxy-groups:
   - 🏁RELAY-198.41.212.122-094_3@94
   - 🇦🇶GOOGLE-34.145.145.76-095_3@95
   - 🏁RELAY-141.193.213.10-096_3@96
-  - 🏁RELAY-141.193.213.21-097_3@97
+  - 🏁RELAY-141.193.213.20-097_3@97
   - 🏁RELAY-141.193.213.20-100_3@100
   - 🏁RELAY-162.159.135.42-101_3@101
   - 🇦🇶NOWHERE-0.0.0.0-102_3@102
@@ -17715,7 +17944,7 @@ proxy-groups:
   - 🏁RELAY-172.67.199.34-113_3@113
   - 🇦🇶NOWHERE-0.0.0.0-114_3@114
   - 🏁RELAY-172.67.34.78-115_3@115
-  - 🏁RELAY-104.16.67.38-117_3@117
+  - 🏁RELAY-104.16.68.38-117_3@117
   - 🇦🇶NOWHERE-0.0.0.0-118_3@118
   - 🇺🇸US-72.52.178.23-120_3@120
   - 🇦🇶NOWHERE-0.0.0.0-122_3@122
@@ -17723,7 +17952,7 @@ proxy-groups:
   - 🏁RELAY-172.67.164.125-124_3@124
   - 🏁RELAY-141.101.115.30-125_3@125
   - 🇺🇸US-209.209.112.27-127_3@127
-  - 🏁RELAY-104.21.21.147-129_3@129
+  - 🏁RELAY-172.67.199.34-129_3@129
   - 🏁RELAY-198.41.212.123-130_3@130
   - 🇦🇶NOWHERE-0.0.0.0-133_3@133
   - 🏁RELAY-141.101.114.32-135_3@135
@@ -17742,72 +17971,85 @@ proxy-groups:
   - 🇷🇺RU-45.136.244.181-155_3@155
   - 🇷🇺RU-176.32.35.22-156_3@156
   - 🇦🇶NOWHERE-0.0.0.0-159_3@159
-  - 🇱🇹LT-94.131.13.110-161_3@161
-  - 🇬🇧GB-172.99.190.109-162_3@162
-  - 🇪🇪EE-95.164.8.106-164_3@164
-  - 🏁RELAY-104.21.69.44-165_3@165
-  - 🇻🇳VN-115.79.238.34-166_3@166
-  - 🇻🇳VN-115.79.238.34-167_3@167
-  - 🏁RELAY-162.159.133.174-168_3@168
-  - 🇸🇪SE-70.34.202.241-169_3@169
-  - 🇨🇳CN-183.233.187.235-170_3@170
-  - 🇨🇳CN-183.233.187.230-171_3@171
-  - 🇨🇳CN-120.233.42.199-172_3@172
-  - 🇸🇬SG-13.213.46.196-173_3@173
-  - 🇯🇵JP-54.199.83.239-174_3@174
-  - 🇸🇬SG-54.251.168.143-175_3@175
-  - 🇨🇳CN-117.149.247.11-176_3@176
-  - 🇦🇶NOWHERE-0.0.0.0-177_3@177
-  - 🇦🇶NOWHERE-0.0.0.0-178_3@178
-  - 🇸🇬SG-159.223.94.156-179_3@179
-  - 🏁RELAY-104.21.67.88-180_3@180
-  - 🇬🇧GB-13.43.223.6-182_3@182
-  - 🏁RELAY-188.114.98.0-186_3@186
-  - 🇨🇳CN-112.29.200.89-189_3@189
-  - 🇬🇧GB-13.43.223.6-190_3@190
-  - 🇺🇸US-23.142.200.175-191_3@191
-  - 🇬🇧GB-13.43.223.6-192_3@192
-  - 🇩🇪DE-149.40.62.114-194_3@194
-  - 🇮🇪IE-34.250.53.126-195_3@195
-  - 🇹🇼TW-118.167.69.122-196_3@196
-  - 🏁RELAY-104.17.25.2-197_3@197
-  - 🇹🇼TW-118.167.76.233-198_3@198
-  - 🏁RELAY-104.17.25.1-199_3@199
-  - 🇬🇧GB-13.43.223.6-200_3@200
-  - 🇻🇳VN-42.96.11.242-201_3@201
-  - 🇹🇼TW-36.232.158.210-203_3@203
-  - 🇨🇳CN-183.236.51.7-204_3@204
-  - 🇨🇳CN-183.236.51.7-205_3@205
-  - 🇨🇳CN-183.236.51.7-206_3@206
-  - 🇨🇳CN-183.236.51.7-207_3@207
-  - 🇨🇳CN-183.236.51.7-208_3@208
-  - 🇨🇳CN-183.236.51.6-209_3@209
-  - 🇨🇳CN-183.236.51.7-210_3@210
-  - 🇨🇳CN-183.236.51.7-211_3@211
-  - 🇨🇳CN-183.236.51.6-212_3@212
-  - 🇨🇳CN-183.236.51.6-213_3@213
-  - 🇨🇳CN-183.236.51.6-214_3@214
+  - 🇹🇼TW-118.167.69.122-160_3@160
+  - 🇹🇼TW-118.167.76.233-161_3@161
+  - 🇹🇼TW-118.167.76.233-162_3@162
+  - 🇬🇧GB-13.42.187.141-163_3@163
+  - 🇹🇼TW-36.232.158.210-165_3@165
+  - 🇵🇹PT-94.131.10.135-166_3@166
+  - 🏁RELAY-172.67.217.144-167_3@167
+  - 🏁RELAY-104.18.96.67-168_3@168
+  - 🇬🇧GB-18.168.78.229-169_3@169
+  - 🏁RELAY-104.31.16.104-170_3@170
+  - 🏁RELAY-104.21.23.176-171_3@171
+  - 🇵🇹PT-94.131.10.135-172_3@172
+  - 🏁RELAY-104.17.184.241-173_3@173
+  - 🇬🇧GB-172.99.190.109-174_3@174
+  - 🇻🇳VN-103.154.62.18-176_3@176
+  - 🇺🇦UA-185.158.211.186-177_3@177
+  - 🇨🇳CN-183.233.187.235-178_3@178
+  - 🏁RELAY-104.21.8.157-180_3@180
+  - 🇨🇳CN-120.233.42.199-181_3@181
+  - 🏁RELAY-104.17.25.1-182_3@182
+  - 🇬🇧GB-18.168.78.229-184_3@184
+  - 🇸🇬SG-13.213.46.196-185_3@185
+  - 🇯🇵JP-54.199.83.239-186_3@186
+  - 🇸🇬SG-54.251.168.143-187_3@187
+  - 🇨🇳CN-117.149.247.11-188_3@188
+  - 🇦🇶NOWHERE-0.0.0.0-189_3@189
+  - 🇦🇶NOWHERE-0.0.0.0-190_3@190
+  - 🇸🇬SG-159.223.94.156-191_3@191
+  - 🏁RELAY-172.67.219.34-192_3@192
+  - 🇺🇸US-44.230.99.253-193_3@193
+  - 🇬🇧GB-18.168.78.229-194_3@194
+  - 🇮🇪IE-63.34.59.40-195_3@195
+  - 🇨🇳CN-112.29.200.89-196_3@196
+  - 🏁RELAY-198.41.223.234-197_3@197
+  - 🇬🇧GB-13.41.121.112-198_3@198
+  - 🏁RELAY-172.67.194.156-200_3@200
+  - 🏁RELAY-104.21.83.10-201_3@201
+  - 🇹🇼TW-36.238.156.2-203_3@203
+  - 🇮🇶IQ-130.193.166.2-205_3@205
+  - 🇬🇧GB-3.11.123.54-206_3@206
+  - 🇩🇪DE-18.185.201.37-207_3@207
+  - 🏁RELAY-104.17.25.2-208_3@208
+  - 🇨🇳CN-36.139.104.222-209_3@209
+  - 🇸🇪SE-51.21.11.122-210_3@210
+  - 🇫🇷FR-51.210.182.170-211_3@211
+  - 🇨🇳CN-183.240.113.235-212_3@212
+  - 🇨🇳CN-36.139.104.222-214_3@214
   - 🇨🇳CN-183.236.51.7-215_3@215
   - 🇨🇳CN-183.236.51.7-216_3@216
-  - 🇨🇳CN-183.236.51.6-217_3@217
+  - 🇨🇳CN-183.236.51.7-217_3@217
   - 🇨🇳CN-183.236.51.7-218_3@218
   - 🇨🇳CN-183.236.51.7-219_3@219
-  - 🏁RELAY-104.18.203.232-221_3@220
-  - 🇫🇷FR-15.188.169.85-223_3@222
-  - 🇸🇪SE-51.21.59.154-224_3@223
-  - 🇨🇳CN-223.113.130.152-225_3@224
-  - 🇩🇪DE-18.185.210.108-227_3@226
-  - 🇫🇷FR-15.188.2.151-230_3@229
-  - 🇬🇧GB-13.42.93.32-234_3@233
-  - 🇬🇧GB-3.11.170.62-236_3@235
-  - 🇨🇳CN-183.233.187.230-237_3@236
-  - 🇮🇪IE-54.75.182.210-238_3@237
-  - 🇮🇪IE-79.125.70.132-239_3@238
-  - 🇬🇧GB-18.133.96.161-240_3@239
-  - 🇩🇪DE-18.185.201.37-242_3@241
-  - 🏁RELAY-172.64.229.1-243_3@242
-  - 🇨🇳CN-183.233.187.235-245_3@244
-  - 🏁RELAY-104.18.15.147-251_3@250
+  - 🇨🇳CN-183.236.51.6-220_3@220
+  - 🇨🇳CN-183.236.51.7-221_3@221
+  - 🇨🇳CN-183.236.51.7-222_3@222
+  - 🇨🇳CN-183.236.51.6-223_3@223
+  - 🇨🇳CN-183.236.51.6-224_3@224
+  - 🇨🇳CN-183.236.51.6-225_3@225
+  - 🇨🇳CN-183.236.51.7-226_3@226
+  - 🇨🇳CN-183.236.51.7-227_3@227
+  - 🇨🇳CN-183.236.51.6-228_3@228
+  - 🇨🇳CN-183.236.51.7-229_3@229
+  - 🇨🇳CN-183.236.51.7-230_3@230
+  - 🇹🇼TW-36.232.158.210-233_3@232
+  - 🇨🇳CN-112.29.200.89-234_3@233
+  - 🇫🇷FR-15.188.2.151-235_3@234
+  - 🏁RELAY-172.67.184.13-236_3@235
+  - 🇬🇧GB-18.168.78.229-237_3@236
+  - 🇮🇪IE-34.250.53.126-238_3@237
+  - 🇩🇪DE-18.192.144.31-239_3@238
+  - 🇸🇪SE-51.21.110.130-240_3@239
+  - 🇨🇳CN-183.236.51.7-242_3@241
+  - 🇨🇳CN-112.29.200.89-243_3@242
+  - 🇸🇬SG-202.79.171.239-244_3@243
+  - 🇫🇷FR-51.158.150.168-247_3@246
+  - 🇸🇪SE-16.171.76.145-248_3@247
+  - 🏁RELAY-188.114.98.0-249_3@248
+  - 🇹🇼TW-118.167.69.122-250_3@249
+  - 🇬🇧GB-18.168.161.11-251_3@250
   - 加拿大 001_4@0
   - 加拿大 002_4@1
   - 美国 001_4@2
@@ -17863,6 +18105,7 @@ proxy-groups:
   - 加拿大 041_4@52
   - 美国 011_4@53
   - 美国 012_4@54
+  - 加拿大 042_4@55
   - 加拿大 043_4@56
   - 加拿大 044_4@57
   - 加拿大 045_4@58
@@ -18018,7 +18261,6 @@ proxy-groups:
   - 加拿大 153_4@209
   - 加拿大 154_4@210
   - 德国 003_4@211
-  - 加拿大 155_4@212
   - 加拿大 156_4@213
   - 加拿大 157_4@214
   - 加拿大 158_4@215
@@ -18093,6 +18335,7 @@ proxy-groups:
   - 加拿大 191_4@287
   - 加拿大 192_4@288
   - 加拿大 193_4@289
+  - 加拿大 194_4@290
   - 加拿大 195_4@292
   - 加拿大 200_4@297
   - 加拿大 201_4@298
@@ -18439,7 +18682,6 @@ proxy-groups:
   - 加拿大 382_4@652
   - 加拿大 383_4@653
   - 美国 169_4@654
-  - 韩国 006_4@655
   - 韩国 007_4@656
   - 加拿大 384_4@657
   - 加拿大 385_4@658
@@ -18469,6 +18711,7 @@ proxy-groups:
   - 新加坡 012_4@682
   - 越南 017_4@683
   - 加拿大 388_4@684
+  - 越南 018_4@685
   - 日本 005_4@686
   - 越南 019_4@687
   - 香港 005_4@688
@@ -18599,9 +18842,7 @@ proxy-groups:
   - 加拿大 432_4@815
   - 加拿大 433_4@816
   - 加拿大 434_4@817
-  - 加拿大 435_4@818
   - 加拿大 436_4@819
-  - 加拿大 437_4@820
   - 韩国 019_4@821
   - 伊朗 006_4@822
   - 德国 015_4@823
@@ -18681,6 +18922,7 @@ proxy-groups:
   - 加拿大 486_4@903
   - 美国 224_4@904
   - 立陶宛 002_4@905
+  - 立陶宛 003_4@906
   - 美国 225_4@907
   - 伊朗 008_4@909
   - 加拿大 487_4@910
@@ -18698,13 +18940,13 @@ proxy-groups:
   - 美国 228_4@922
   - 美国 229_4@923
   - 越南 025_4@924
-  - 加拿大 488_4@925
   - 俄罗斯 006_4@926
   - 加拿大 489_4@927
   - 新加坡 026_4@928
   - 西班牙 001_4@929
   - 俄罗斯 007_4@930
   - 越南 026_4@931
+  - 越南 027_4@932
   - 美国 230_4@933
   - 美国 231_4@934
   - 美国 232_4@935
@@ -18736,9 +18978,11 @@ proxy-groups:
   - 加拿大 497_4@962
   - 加拿大 499_4@964
   - 加拿大 500_4@965
+  - 加拿大 501_4@966
   - 美国 242_4@968
   - 加拿大 502_4@969
   - 加拿大 503_4@970
+  - 爱沙尼亚 001_4@971
   - 美国 243_4@972
   - 英国 012_4@973
   - 越南 028_4@974
@@ -18747,17 +18991,16 @@ proxy-groups:
   - 美国 245_4@977
   - 美国 246_4@978
   - 韩国 022_4@979
-  - 葡萄牙 001_4@980
   - 新加坡 029_4@981
-  - 🇨🇳_CN_中国->🇦🇹_AT_奥地利_6@6
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_6@7
-  - 🇺🇸_US_美国_6_6@10
-  - 🇰🇷_KR_韩国_6@13
+  - 法国 003_4@982
+  - 法国 004_4@983
+  - 🇨🇳_CN_中国->🇮🇳_IN_印度_6@5
+  - 🇰🇷_KR_韩国_6@20
   - SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.202:2375_7@0
   - SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-167.88.61.175:5004_7@1
-  - SS-法国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.172:9102_7@2
-  - SSR-秘鲁:美国-解锁NF-ChatGPT-TikTok-YouTubePrem-190.120.229.28:989_7@3
-  - SS-法国:俄罗斯联邦-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.181:7307_7@4
+  - SS-法国:美国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.172:9102_7@2
+  - SSR-秘鲁-解锁NF-ChatGPT-TikTok-YouTubePrem-190.120.229.28:989_7@3
+  - SS-法国:荷兰-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.181:7307_7@4
   - SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.75.136.135:8118_7@5
   - SS-法国:波兰-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.181:8118_7@6
   - SS-德国-locked-ChatGPT-TikTok-YouTubePrem-217.182.198.219:2376_7@7
@@ -18767,12 +19010,14 @@ proxy-groups:
   - SS-德国:法国-locked-ChatGPT-TikTok-YouTubePrem-145.239.1.100:5001_7@11
   - SS-英国-自制NF-ChatGPT-TikTok-YouTubePrem-212.102.53.79:443_7@12
   - SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.9:8008_7@13
-  - SS-波兰:俄罗斯联邦-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.200:6379_7@14
-  - SS-法国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.172:5003_7@15
-  - SS-波兰-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.200:5004_7@16
+  - SS-波兰-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.200:6379_7@14
+  - SS-法国:美国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.172:5003_7@15
+  - SS-波兰:俄罗斯联邦-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.200:5004_7@16
   - SS-美国-locked-ChatGPT-TikTok-YouTubePrem-167.88.61.175:5000_7@17
   - SS-法国:波兰-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.181:8000_7@18
   - SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.9:5500_7@19
+  - 🇨🇳 中国【付费推荐：https://jdyvip.link/】99_9@9
+  - 🇨🇳 中国【付费推荐：https://jdyvip.link/】103_9@12
   type: select
 - name: 📲 电报信息
   proxies:
@@ -18835,7 +19080,7 @@ proxy-groups:
   - 🇨🇷_CR_哥斯达黎加->🇩🇪_DE_德国_2@45
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1_2@46
   - 🇺🇸_US_美国->🇩🇪_DE_德国_2_2@47
-  - 🏁RELAY-198.41.223.37-016_3@16
+  - 🏁RELAY-198.41.223.6-016_3@16
   - 🇸🇬SG-52.221.255.59-017_3@17
   - 🇸🇬SG-129.150.44.226-018_3@18
   - 🇨🇳CN-120.233.42.199-019_3@19
@@ -18867,7 +19112,7 @@ proxy-groups:
   - 🇮🇩ID-103.8.79.138-051_3@51
   - 🇳🇱NL-104.193.8.253-052_3@52
   - 🏁RELAY-172.67.199.34-053_3@53
-  - 🏁RELAY-104.16.210.157-054_3@54
+  - 🏁RELAY-172.64.141.75-054_3@54
   - 🏁RELAY-190.93.245.4-055_3@55
   - 🇩🇪DE-52.58.78.16-056_3@56
   - 🏁RELAY-23.227.38.100-057_3@57
@@ -18888,7 +19133,7 @@ proxy-groups:
   - 🇩🇪DE-3.64.163.50-072_3@72
   - 🏁RELAY-188.114.99.11-073_3@73
   - 🏁RELAY-185.162.228.230-075_3@75
-  - 🏁RELAY-172.67.73.208-077_3@77
+  - 🏁RELAY-104.26.9.112-077_3@77
   - 🏁RELAY-162.159.128.7-080_3@80
   - 🇦🇶NOWHERE-0.0.0.0-082_3@82
   - 🏁RELAY-190.93.244.2-084_3@84
@@ -18902,7 +19147,7 @@ proxy-groups:
   - 🏁RELAY-198.41.212.122-094_3@94
   - 🇦🇶GOOGLE-34.145.145.76-095_3@95
   - 🏁RELAY-141.193.213.10-096_3@96
-  - 🏁RELAY-141.193.213.21-097_3@97
+  - 🏁RELAY-141.193.213.20-097_3@97
   - 🏁RELAY-141.193.213.20-100_3@100
   - 🏁RELAY-162.159.135.42-101_3@101
   - 🇦🇶NOWHERE-0.0.0.0-102_3@102
@@ -18916,7 +19161,7 @@ proxy-groups:
   - 🏁RELAY-172.67.199.34-113_3@113
   - 🇦🇶NOWHERE-0.0.0.0-114_3@114
   - 🏁RELAY-172.67.34.78-115_3@115
-  - 🏁RELAY-104.16.67.38-117_3@117
+  - 🏁RELAY-104.16.68.38-117_3@117
   - 🇦🇶NOWHERE-0.0.0.0-118_3@118
   - 🇺🇸US-72.52.178.23-120_3@120
   - 🇦🇶NOWHERE-0.0.0.0-122_3@122
@@ -18924,7 +19169,7 @@ proxy-groups:
   - 🏁RELAY-172.67.164.125-124_3@124
   - 🏁RELAY-141.101.115.30-125_3@125
   - 🇺🇸US-209.209.112.27-127_3@127
-  - 🏁RELAY-104.21.21.147-129_3@129
+  - 🏁RELAY-172.67.199.34-129_3@129
   - 🏁RELAY-198.41.212.123-130_3@130
   - 🇦🇶NOWHERE-0.0.0.0-133_3@133
   - 🏁RELAY-141.101.114.32-135_3@135
@@ -18943,72 +19188,85 @@ proxy-groups:
   - 🇷🇺RU-45.136.244.181-155_3@155
   - 🇷🇺RU-176.32.35.22-156_3@156
   - 🇦🇶NOWHERE-0.0.0.0-159_3@159
-  - 🇱🇹LT-94.131.13.110-161_3@161
-  - 🇬🇧GB-172.99.190.109-162_3@162
-  - 🇪🇪EE-95.164.8.106-164_3@164
-  - 🏁RELAY-104.21.69.44-165_3@165
-  - 🇻🇳VN-115.79.238.34-166_3@166
-  - 🇻🇳VN-115.79.238.34-167_3@167
-  - 🏁RELAY-162.159.133.174-168_3@168
-  - 🇸🇪SE-70.34.202.241-169_3@169
-  - 🇨🇳CN-183.233.187.235-170_3@170
-  - 🇨🇳CN-183.233.187.230-171_3@171
-  - 🇨🇳CN-120.233.42.199-172_3@172
-  - 🇸🇬SG-13.213.46.196-173_3@173
-  - 🇯🇵JP-54.199.83.239-174_3@174
-  - 🇸🇬SG-54.251.168.143-175_3@175
-  - 🇨🇳CN-117.149.247.11-176_3@176
-  - 🇦🇶NOWHERE-0.0.0.0-177_3@177
-  - 🇦🇶NOWHERE-0.0.0.0-178_3@178
-  - 🇸🇬SG-159.223.94.156-179_3@179
-  - 🏁RELAY-104.21.67.88-180_3@180
-  - 🇬🇧GB-13.43.223.6-182_3@182
-  - 🏁RELAY-188.114.98.0-186_3@186
-  - 🇨🇳CN-112.29.200.89-189_3@189
-  - 🇬🇧GB-13.43.223.6-190_3@190
-  - 🇺🇸US-23.142.200.175-191_3@191
-  - 🇬🇧GB-13.43.223.6-192_3@192
-  - 🇩🇪DE-149.40.62.114-194_3@194
-  - 🇮🇪IE-34.250.53.126-195_3@195
-  - 🇹🇼TW-118.167.69.122-196_3@196
-  - 🏁RELAY-104.17.25.2-197_3@197
-  - 🇹🇼TW-118.167.76.233-198_3@198
-  - 🏁RELAY-104.17.25.1-199_3@199
-  - 🇬🇧GB-13.43.223.6-200_3@200
-  - 🇻🇳VN-42.96.11.242-201_3@201
-  - 🇹🇼TW-36.232.158.210-203_3@203
-  - 🇨🇳CN-183.236.51.7-204_3@204
-  - 🇨🇳CN-183.236.51.7-205_3@205
-  - 🇨🇳CN-183.236.51.7-206_3@206
-  - 🇨🇳CN-183.236.51.7-207_3@207
-  - 🇨🇳CN-183.236.51.7-208_3@208
-  - 🇨🇳CN-183.236.51.6-209_3@209
-  - 🇨🇳CN-183.236.51.7-210_3@210
-  - 🇨🇳CN-183.236.51.7-211_3@211
-  - 🇨🇳CN-183.236.51.6-212_3@212
-  - 🇨🇳CN-183.236.51.6-213_3@213
-  - 🇨🇳CN-183.236.51.6-214_3@214
+  - 🇹🇼TW-118.167.69.122-160_3@160
+  - 🇹🇼TW-118.167.76.233-161_3@161
+  - 🇹🇼TW-118.167.76.233-162_3@162
+  - 🇬🇧GB-13.42.187.141-163_3@163
+  - 🇹🇼TW-36.232.158.210-165_3@165
+  - 🇵🇹PT-94.131.10.135-166_3@166
+  - 🏁RELAY-172.67.217.144-167_3@167
+  - 🏁RELAY-104.18.96.67-168_3@168
+  - 🇬🇧GB-18.168.78.229-169_3@169
+  - 🏁RELAY-104.31.16.104-170_3@170
+  - 🏁RELAY-104.21.23.176-171_3@171
+  - 🇵🇹PT-94.131.10.135-172_3@172
+  - 🏁RELAY-104.17.184.241-173_3@173
+  - 🇬🇧GB-172.99.190.109-174_3@174
+  - 🇻🇳VN-103.154.62.18-176_3@176
+  - 🇺🇦UA-185.158.211.186-177_3@177
+  - 🇨🇳CN-183.233.187.235-178_3@178
+  - 🏁RELAY-104.21.8.157-180_3@180
+  - 🇨🇳CN-120.233.42.199-181_3@181
+  - 🏁RELAY-104.17.25.1-182_3@182
+  - 🇬🇧GB-18.168.78.229-184_3@184
+  - 🇸🇬SG-13.213.46.196-185_3@185
+  - 🇯🇵JP-54.199.83.239-186_3@186
+  - 🇸🇬SG-54.251.168.143-187_3@187
+  - 🇨🇳CN-117.149.247.11-188_3@188
+  - 🇦🇶NOWHERE-0.0.0.0-189_3@189
+  - 🇦🇶NOWHERE-0.0.0.0-190_3@190
+  - 🇸🇬SG-159.223.94.156-191_3@191
+  - 🏁RELAY-172.67.219.34-192_3@192
+  - 🇺🇸US-44.230.99.253-193_3@193
+  - 🇬🇧GB-18.168.78.229-194_3@194
+  - 🇮🇪IE-63.34.59.40-195_3@195
+  - 🇨🇳CN-112.29.200.89-196_3@196
+  - 🏁RELAY-198.41.223.234-197_3@197
+  - 🇬🇧GB-13.41.121.112-198_3@198
+  - 🏁RELAY-172.67.194.156-200_3@200
+  - 🏁RELAY-104.21.83.10-201_3@201
+  - 🇹🇼TW-36.238.156.2-203_3@203
+  - 🇮🇶IQ-130.193.166.2-205_3@205
+  - 🇬🇧GB-3.11.123.54-206_3@206
+  - 🇩🇪DE-18.185.201.37-207_3@207
+  - 🏁RELAY-104.17.25.2-208_3@208
+  - 🇨🇳CN-36.139.104.222-209_3@209
+  - 🇸🇪SE-51.21.11.122-210_3@210
+  - 🇫🇷FR-51.210.182.170-211_3@211
+  - 🇨🇳CN-183.240.113.235-212_3@212
+  - 🇨🇳CN-36.139.104.222-214_3@214
   - 🇨🇳CN-183.236.51.7-215_3@215
   - 🇨🇳CN-183.236.51.7-216_3@216
-  - 🇨🇳CN-183.236.51.6-217_3@217
+  - 🇨🇳CN-183.236.51.7-217_3@217
   - 🇨🇳CN-183.236.51.7-218_3@218
   - 🇨🇳CN-183.236.51.7-219_3@219
-  - 🏁RELAY-104.18.203.232-221_3@220
-  - 🇫🇷FR-15.188.169.85-223_3@222
-  - 🇸🇪SE-51.21.59.154-224_3@223
-  - 🇨🇳CN-223.113.130.152-225_3@224
-  - 🇩🇪DE-18.185.210.108-227_3@226
-  - 🇫🇷FR-15.188.2.151-230_3@229
-  - 🇬🇧GB-13.42.93.32-234_3@233
-  - 🇬🇧GB-3.11.170.62-236_3@235
-  - 🇨🇳CN-183.233.187.230-237_3@236
-  - 🇮🇪IE-54.75.182.210-238_3@237
-  - 🇮🇪IE-79.125.70.132-239_3@238
-  - 🇬🇧GB-18.133.96.161-240_3@239
-  - 🇩🇪DE-18.185.201.37-242_3@241
-  - 🏁RELAY-172.64.229.1-243_3@242
-  - 🇨🇳CN-183.233.187.235-245_3@244
-  - 🏁RELAY-104.18.15.147-251_3@250
+  - 🇨🇳CN-183.236.51.6-220_3@220
+  - 🇨🇳CN-183.236.51.7-221_3@221
+  - 🇨🇳CN-183.236.51.7-222_3@222
+  - 🇨🇳CN-183.236.51.6-223_3@223
+  - 🇨🇳CN-183.236.51.6-224_3@224
+  - 🇨🇳CN-183.236.51.6-225_3@225
+  - 🇨🇳CN-183.236.51.7-226_3@226
+  - 🇨🇳CN-183.236.51.7-227_3@227
+  - 🇨🇳CN-183.236.51.6-228_3@228
+  - 🇨🇳CN-183.236.51.7-229_3@229
+  - 🇨🇳CN-183.236.51.7-230_3@230
+  - 🇹🇼TW-36.232.158.210-233_3@232
+  - 🇨🇳CN-112.29.200.89-234_3@233
+  - 🇫🇷FR-15.188.2.151-235_3@234
+  - 🏁RELAY-172.67.184.13-236_3@235
+  - 🇬🇧GB-18.168.78.229-237_3@236
+  - 🇮🇪IE-34.250.53.126-238_3@237
+  - 🇩🇪DE-18.192.144.31-239_3@238
+  - 🇸🇪SE-51.21.110.130-240_3@239
+  - 🇨🇳CN-183.236.51.7-242_3@241
+  - 🇨🇳CN-112.29.200.89-243_3@242
+  - 🇸🇬SG-202.79.171.239-244_3@243
+  - 🇫🇷FR-51.158.150.168-247_3@246
+  - 🇸🇪SE-16.171.76.145-248_3@247
+  - 🏁RELAY-188.114.98.0-249_3@248
+  - 🇹🇼TW-118.167.69.122-250_3@249
+  - 🇬🇧GB-18.168.161.11-251_3@250
   - 加拿大 001_4@0
   - 加拿大 002_4@1
   - 美国 001_4@2
@@ -19064,6 +19322,7 @@ proxy-groups:
   - 加拿大 041_4@52
   - 美国 011_4@53
   - 美国 012_4@54
+  - 加拿大 042_4@55
   - 加拿大 043_4@56
   - 加拿大 044_4@57
   - 加拿大 045_4@58
@@ -19219,7 +19478,6 @@ proxy-groups:
   - 加拿大 153_4@209
   - 加拿大 154_4@210
   - 德国 003_4@211
-  - 加拿大 155_4@212
   - 加拿大 156_4@213
   - 加拿大 157_4@214
   - 加拿大 158_4@215
@@ -19294,6 +19552,7 @@ proxy-groups:
   - 加拿大 191_4@287
   - 加拿大 192_4@288
   - 加拿大 193_4@289
+  - 加拿大 194_4@290
   - 加拿大 195_4@292
   - 加拿大 200_4@297
   - 加拿大 201_4@298
@@ -19640,7 +19899,6 @@ proxy-groups:
   - 加拿大 382_4@652
   - 加拿大 383_4@653
   - 美国 169_4@654
-  - 韩国 006_4@655
   - 韩国 007_4@656
   - 加拿大 384_4@657
   - 加拿大 385_4@658
@@ -19670,6 +19928,7 @@ proxy-groups:
   - 新加坡 012_4@682
   - 越南 017_4@683
   - 加拿大 388_4@684
+  - 越南 018_4@685
   - 日本 005_4@686
   - 越南 019_4@687
   - 香港 005_4@688
@@ -19800,9 +20059,7 @@ proxy-groups:
   - 加拿大 432_4@815
   - 加拿大 433_4@816
   - 加拿大 434_4@817
-  - 加拿大 435_4@818
   - 加拿大 436_4@819
-  - 加拿大 437_4@820
   - 韩国 019_4@821
   - 伊朗 006_4@822
   - 德国 015_4@823
@@ -19882,6 +20139,7 @@ proxy-groups:
   - 加拿大 486_4@903
   - 美国 224_4@904
   - 立陶宛 002_4@905
+  - 立陶宛 003_4@906
   - 美国 225_4@907
   - 伊朗 008_4@909
   - 加拿大 487_4@910
@@ -19899,13 +20157,13 @@ proxy-groups:
   - 美国 228_4@922
   - 美国 229_4@923
   - 越南 025_4@924
-  - 加拿大 488_4@925
   - 俄罗斯 006_4@926
   - 加拿大 489_4@927
   - 新加坡 026_4@928
   - 西班牙 001_4@929
   - 俄罗斯 007_4@930
   - 越南 026_4@931
+  - 越南 027_4@932
   - 美国 230_4@933
   - 美国 231_4@934
   - 美国 232_4@935
@@ -19937,9 +20195,11 @@ proxy-groups:
   - 加拿大 497_4@962
   - 加拿大 499_4@964
   - 加拿大 500_4@965
+  - 加拿大 501_4@966
   - 美国 242_4@968
   - 加拿大 502_4@969
   - 加拿大 503_4@970
+  - 爱沙尼亚 001_4@971
   - 美国 243_4@972
   - 英国 012_4@973
   - 越南 028_4@974
@@ -19948,17 +20208,16 @@ proxy-groups:
   - 美国 245_4@977
   - 美国 246_4@978
   - 韩国 022_4@979
-  - 葡萄牙 001_4@980
   - 新加坡 029_4@981
-  - 🇨🇳_CN_中国->🇦🇹_AT_奥地利_6@6
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_6@7
-  - 🇺🇸_US_美国_6_6@10
-  - 🇰🇷_KR_韩国_6@13
+  - 法国 003_4@982
+  - 法国 004_4@983
+  - 🇨🇳_CN_中国->🇮🇳_IN_印度_6@5
+  - 🇰🇷_KR_韩国_6@20
   - SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.202:2375_7@0
   - SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-167.88.61.175:5004_7@1
-  - SS-法国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.172:9102_7@2
-  - SSR-秘鲁:美国-解锁NF-ChatGPT-TikTok-YouTubePrem-190.120.229.28:989_7@3
-  - SS-法国:俄罗斯联邦-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.181:7307_7@4
+  - SS-法国:美国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.172:9102_7@2
+  - SSR-秘鲁-解锁NF-ChatGPT-TikTok-YouTubePrem-190.120.229.28:989_7@3
+  - SS-法国:荷兰-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.181:7307_7@4
   - SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.75.136.135:8118_7@5
   - SS-法国:波兰-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.181:8118_7@6
   - SS-德国-locked-ChatGPT-TikTok-YouTubePrem-217.182.198.219:2376_7@7
@@ -19968,12 +20227,14 @@ proxy-groups:
   - SS-德国:法国-locked-ChatGPT-TikTok-YouTubePrem-145.239.1.100:5001_7@11
   - SS-英国-自制NF-ChatGPT-TikTok-YouTubePrem-212.102.53.79:443_7@12
   - SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.9:8008_7@13
-  - SS-波兰:俄罗斯联邦-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.200:6379_7@14
-  - SS-法国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.172:5003_7@15
-  - SS-波兰-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.200:5004_7@16
+  - SS-波兰-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.200:6379_7@14
+  - SS-法国:美国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.172:5003_7@15
+  - SS-波兰:俄罗斯联邦-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.200:5004_7@16
   - SS-美国-locked-ChatGPT-TikTok-YouTubePrem-167.88.61.175:5000_7@17
   - SS-法国:波兰-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.181:8000_7@18
   - SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.9:5500_7@19
+  - 🇨🇳 中国【付费推荐：https://jdyvip.link/】99_9@9
+  - 🇨🇳 中国【付费推荐：https://jdyvip.link/】103_9@12
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -20036,7 +20297,7 @@ proxy-groups:
   - 🇨🇷_CR_哥斯达黎加->🇩🇪_DE_德国_2@45
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1_2@46
   - 🇺🇸_US_美国->🇩🇪_DE_德国_2_2@47
-  - 🏁RELAY-198.41.223.37-016_3@16
+  - 🏁RELAY-198.41.223.6-016_3@16
   - 🇸🇬SG-52.221.255.59-017_3@17
   - 🇸🇬SG-129.150.44.226-018_3@18
   - 🇨🇳CN-120.233.42.199-019_3@19
@@ -20068,7 +20329,7 @@ proxy-groups:
   - 🇮🇩ID-103.8.79.138-051_3@51
   - 🇳🇱NL-104.193.8.253-052_3@52
   - 🏁RELAY-172.67.199.34-053_3@53
-  - 🏁RELAY-104.16.210.157-054_3@54
+  - 🏁RELAY-172.64.141.75-054_3@54
   - 🏁RELAY-190.93.245.4-055_3@55
   - 🇩🇪DE-52.58.78.16-056_3@56
   - 🏁RELAY-23.227.38.100-057_3@57
@@ -20089,7 +20350,7 @@ proxy-groups:
   - 🇩🇪DE-3.64.163.50-072_3@72
   - 🏁RELAY-188.114.99.11-073_3@73
   - 🏁RELAY-185.162.228.230-075_3@75
-  - 🏁RELAY-172.67.73.208-077_3@77
+  - 🏁RELAY-104.26.9.112-077_3@77
   - 🏁RELAY-162.159.128.7-080_3@80
   - 🇦🇶NOWHERE-0.0.0.0-082_3@82
   - 🏁RELAY-190.93.244.2-084_3@84
@@ -20103,7 +20364,7 @@ proxy-groups:
   - 🏁RELAY-198.41.212.122-094_3@94
   - 🇦🇶GOOGLE-34.145.145.76-095_3@95
   - 🏁RELAY-141.193.213.10-096_3@96
-  - 🏁RELAY-141.193.213.21-097_3@97
+  - 🏁RELAY-141.193.213.20-097_3@97
   - 🏁RELAY-141.193.213.20-100_3@100
   - 🏁RELAY-162.159.135.42-101_3@101
   - 🇦🇶NOWHERE-0.0.0.0-102_3@102
@@ -20117,7 +20378,7 @@ proxy-groups:
   - 🏁RELAY-172.67.199.34-113_3@113
   - 🇦🇶NOWHERE-0.0.0.0-114_3@114
   - 🏁RELAY-172.67.34.78-115_3@115
-  - 🏁RELAY-104.16.67.38-117_3@117
+  - 🏁RELAY-104.16.68.38-117_3@117
   - 🇦🇶NOWHERE-0.0.0.0-118_3@118
   - 🇺🇸US-72.52.178.23-120_3@120
   - 🇦🇶NOWHERE-0.0.0.0-122_3@122
@@ -20125,7 +20386,7 @@ proxy-groups:
   - 🏁RELAY-172.67.164.125-124_3@124
   - 🏁RELAY-141.101.115.30-125_3@125
   - 🇺🇸US-209.209.112.27-127_3@127
-  - 🏁RELAY-104.21.21.147-129_3@129
+  - 🏁RELAY-172.67.199.34-129_3@129
   - 🏁RELAY-198.41.212.123-130_3@130
   - 🇦🇶NOWHERE-0.0.0.0-133_3@133
   - 🏁RELAY-141.101.114.32-135_3@135
@@ -20144,72 +20405,85 @@ proxy-groups:
   - 🇷🇺RU-45.136.244.181-155_3@155
   - 🇷🇺RU-176.32.35.22-156_3@156
   - 🇦🇶NOWHERE-0.0.0.0-159_3@159
-  - 🇱🇹LT-94.131.13.110-161_3@161
-  - 🇬🇧GB-172.99.190.109-162_3@162
-  - 🇪🇪EE-95.164.8.106-164_3@164
-  - 🏁RELAY-104.21.69.44-165_3@165
-  - 🇻🇳VN-115.79.238.34-166_3@166
-  - 🇻🇳VN-115.79.238.34-167_3@167
-  - 🏁RELAY-162.159.133.174-168_3@168
-  - 🇸🇪SE-70.34.202.241-169_3@169
-  - 🇨🇳CN-183.233.187.235-170_3@170
-  - 🇨🇳CN-183.233.187.230-171_3@171
-  - 🇨🇳CN-120.233.42.199-172_3@172
-  - 🇸🇬SG-13.213.46.196-173_3@173
-  - 🇯🇵JP-54.199.83.239-174_3@174
-  - 🇸🇬SG-54.251.168.143-175_3@175
-  - 🇨🇳CN-117.149.247.11-176_3@176
-  - 🇦🇶NOWHERE-0.0.0.0-177_3@177
-  - 🇦🇶NOWHERE-0.0.0.0-178_3@178
-  - 🇸🇬SG-159.223.94.156-179_3@179
-  - 🏁RELAY-104.21.67.88-180_3@180
-  - 🇬🇧GB-13.43.223.6-182_3@182
-  - 🏁RELAY-188.114.98.0-186_3@186
-  - 🇨🇳CN-112.29.200.89-189_3@189
-  - 🇬🇧GB-13.43.223.6-190_3@190
-  - 🇺🇸US-23.142.200.175-191_3@191
-  - 🇬🇧GB-13.43.223.6-192_3@192
-  - 🇩🇪DE-149.40.62.114-194_3@194
-  - 🇮🇪IE-34.250.53.126-195_3@195
-  - 🇹🇼TW-118.167.69.122-196_3@196
-  - 🏁RELAY-104.17.25.2-197_3@197
-  - 🇹🇼TW-118.167.76.233-198_3@198
-  - 🏁RELAY-104.17.25.1-199_3@199
-  - 🇬🇧GB-13.43.223.6-200_3@200
-  - 🇻🇳VN-42.96.11.242-201_3@201
-  - 🇹🇼TW-36.232.158.210-203_3@203
-  - 🇨🇳CN-183.236.51.7-204_3@204
-  - 🇨🇳CN-183.236.51.7-205_3@205
-  - 🇨🇳CN-183.236.51.7-206_3@206
-  - 🇨🇳CN-183.236.51.7-207_3@207
-  - 🇨🇳CN-183.236.51.7-208_3@208
-  - 🇨🇳CN-183.236.51.6-209_3@209
-  - 🇨🇳CN-183.236.51.7-210_3@210
-  - 🇨🇳CN-183.236.51.7-211_3@211
-  - 🇨🇳CN-183.236.51.6-212_3@212
-  - 🇨🇳CN-183.236.51.6-213_3@213
-  - 🇨🇳CN-183.236.51.6-214_3@214
+  - 🇹🇼TW-118.167.69.122-160_3@160
+  - 🇹🇼TW-118.167.76.233-161_3@161
+  - 🇹🇼TW-118.167.76.233-162_3@162
+  - 🇬🇧GB-13.42.187.141-163_3@163
+  - 🇹🇼TW-36.232.158.210-165_3@165
+  - 🇵🇹PT-94.131.10.135-166_3@166
+  - 🏁RELAY-172.67.217.144-167_3@167
+  - 🏁RELAY-104.18.96.67-168_3@168
+  - 🇬🇧GB-18.168.78.229-169_3@169
+  - 🏁RELAY-104.31.16.104-170_3@170
+  - 🏁RELAY-104.21.23.176-171_3@171
+  - 🇵🇹PT-94.131.10.135-172_3@172
+  - 🏁RELAY-104.17.184.241-173_3@173
+  - 🇬🇧GB-172.99.190.109-174_3@174
+  - 🇻🇳VN-103.154.62.18-176_3@176
+  - 🇺🇦UA-185.158.211.186-177_3@177
+  - 🇨🇳CN-183.233.187.235-178_3@178
+  - 🏁RELAY-104.21.8.157-180_3@180
+  - 🇨🇳CN-120.233.42.199-181_3@181
+  - 🏁RELAY-104.17.25.1-182_3@182
+  - 🇬🇧GB-18.168.78.229-184_3@184
+  - 🇸🇬SG-13.213.46.196-185_3@185
+  - 🇯🇵JP-54.199.83.239-186_3@186
+  - 🇸🇬SG-54.251.168.143-187_3@187
+  - 🇨🇳CN-117.149.247.11-188_3@188
+  - 🇦🇶NOWHERE-0.0.0.0-189_3@189
+  - 🇦🇶NOWHERE-0.0.0.0-190_3@190
+  - 🇸🇬SG-159.223.94.156-191_3@191
+  - 🏁RELAY-172.67.219.34-192_3@192
+  - 🇺🇸US-44.230.99.253-193_3@193
+  - 🇬🇧GB-18.168.78.229-194_3@194
+  - 🇮🇪IE-63.34.59.40-195_3@195
+  - 🇨🇳CN-112.29.200.89-196_3@196
+  - 🏁RELAY-198.41.223.234-197_3@197
+  - 🇬🇧GB-13.41.121.112-198_3@198
+  - 🏁RELAY-172.67.194.156-200_3@200
+  - 🏁RELAY-104.21.83.10-201_3@201
+  - 🇹🇼TW-36.238.156.2-203_3@203
+  - 🇮🇶IQ-130.193.166.2-205_3@205
+  - 🇬🇧GB-3.11.123.54-206_3@206
+  - 🇩🇪DE-18.185.201.37-207_3@207
+  - 🏁RELAY-104.17.25.2-208_3@208
+  - 🇨🇳CN-36.139.104.222-209_3@209
+  - 🇸🇪SE-51.21.11.122-210_3@210
+  - 🇫🇷FR-51.210.182.170-211_3@211
+  - 🇨🇳CN-183.240.113.235-212_3@212
+  - 🇨🇳CN-36.139.104.222-214_3@214
   - 🇨🇳CN-183.236.51.7-215_3@215
   - 🇨🇳CN-183.236.51.7-216_3@216
-  - 🇨🇳CN-183.236.51.6-217_3@217
+  - 🇨🇳CN-183.236.51.7-217_3@217
   - 🇨🇳CN-183.236.51.7-218_3@218
   - 🇨🇳CN-183.236.51.7-219_3@219
-  - 🏁RELAY-104.18.203.232-221_3@220
-  - 🇫🇷FR-15.188.169.85-223_3@222
-  - 🇸🇪SE-51.21.59.154-224_3@223
-  - 🇨🇳CN-223.113.130.152-225_3@224
-  - 🇩🇪DE-18.185.210.108-227_3@226
-  - 🇫🇷FR-15.188.2.151-230_3@229
-  - 🇬🇧GB-13.42.93.32-234_3@233
-  - 🇬🇧GB-3.11.170.62-236_3@235
-  - 🇨🇳CN-183.233.187.230-237_3@236
-  - 🇮🇪IE-54.75.182.210-238_3@237
-  - 🇮🇪IE-79.125.70.132-239_3@238
-  - 🇬🇧GB-18.133.96.161-240_3@239
-  - 🇩🇪DE-18.185.201.37-242_3@241
-  - 🏁RELAY-172.64.229.1-243_3@242
-  - 🇨🇳CN-183.233.187.235-245_3@244
-  - 🏁RELAY-104.18.15.147-251_3@250
+  - 🇨🇳CN-183.236.51.6-220_3@220
+  - 🇨🇳CN-183.236.51.7-221_3@221
+  - 🇨🇳CN-183.236.51.7-222_3@222
+  - 🇨🇳CN-183.236.51.6-223_3@223
+  - 🇨🇳CN-183.236.51.6-224_3@224
+  - 🇨🇳CN-183.236.51.6-225_3@225
+  - 🇨🇳CN-183.236.51.7-226_3@226
+  - 🇨🇳CN-183.236.51.7-227_3@227
+  - 🇨🇳CN-183.236.51.6-228_3@228
+  - 🇨🇳CN-183.236.51.7-229_3@229
+  - 🇨🇳CN-183.236.51.7-230_3@230
+  - 🇹🇼TW-36.232.158.210-233_3@232
+  - 🇨🇳CN-112.29.200.89-234_3@233
+  - 🇫🇷FR-15.188.2.151-235_3@234
+  - 🏁RELAY-172.67.184.13-236_3@235
+  - 🇬🇧GB-18.168.78.229-237_3@236
+  - 🇮🇪IE-34.250.53.126-238_3@237
+  - 🇩🇪DE-18.192.144.31-239_3@238
+  - 🇸🇪SE-51.21.110.130-240_3@239
+  - 🇨🇳CN-183.236.51.7-242_3@241
+  - 🇨🇳CN-112.29.200.89-243_3@242
+  - 🇸🇬SG-202.79.171.239-244_3@243
+  - 🇫🇷FR-51.158.150.168-247_3@246
+  - 🇸🇪SE-16.171.76.145-248_3@247
+  - 🏁RELAY-188.114.98.0-249_3@248
+  - 🇹🇼TW-118.167.69.122-250_3@249
+  - 🇬🇧GB-18.168.161.11-251_3@250
   - 加拿大 001_4@0
   - 加拿大 002_4@1
   - 美国 001_4@2
@@ -20265,6 +20539,7 @@ proxy-groups:
   - 加拿大 041_4@52
   - 美国 011_4@53
   - 美国 012_4@54
+  - 加拿大 042_4@55
   - 加拿大 043_4@56
   - 加拿大 044_4@57
   - 加拿大 045_4@58
@@ -20420,7 +20695,6 @@ proxy-groups:
   - 加拿大 153_4@209
   - 加拿大 154_4@210
   - 德国 003_4@211
-  - 加拿大 155_4@212
   - 加拿大 156_4@213
   - 加拿大 157_4@214
   - 加拿大 158_4@215
@@ -20495,6 +20769,7 @@ proxy-groups:
   - 加拿大 191_4@287
   - 加拿大 192_4@288
   - 加拿大 193_4@289
+  - 加拿大 194_4@290
   - 加拿大 195_4@292
   - 加拿大 200_4@297
   - 加拿大 201_4@298
@@ -20841,7 +21116,6 @@ proxy-groups:
   - 加拿大 382_4@652
   - 加拿大 383_4@653
   - 美国 169_4@654
-  - 韩国 006_4@655
   - 韩国 007_4@656
   - 加拿大 384_4@657
   - 加拿大 385_4@658
@@ -20871,6 +21145,7 @@ proxy-groups:
   - 新加坡 012_4@682
   - 越南 017_4@683
   - 加拿大 388_4@684
+  - 越南 018_4@685
   - 日本 005_4@686
   - 越南 019_4@687
   - 香港 005_4@688
@@ -21001,9 +21276,7 @@ proxy-groups:
   - 加拿大 432_4@815
   - 加拿大 433_4@816
   - 加拿大 434_4@817
-  - 加拿大 435_4@818
   - 加拿大 436_4@819
-  - 加拿大 437_4@820
   - 韩国 019_4@821
   - 伊朗 006_4@822
   - 德国 015_4@823
@@ -21083,6 +21356,7 @@ proxy-groups:
   - 加拿大 486_4@903
   - 美国 224_4@904
   - 立陶宛 002_4@905
+  - 立陶宛 003_4@906
   - 美国 225_4@907
   - 伊朗 008_4@909
   - 加拿大 487_4@910
@@ -21100,13 +21374,13 @@ proxy-groups:
   - 美国 228_4@922
   - 美国 229_4@923
   - 越南 025_4@924
-  - 加拿大 488_4@925
   - 俄罗斯 006_4@926
   - 加拿大 489_4@927
   - 新加坡 026_4@928
   - 西班牙 001_4@929
   - 俄罗斯 007_4@930
   - 越南 026_4@931
+  - 越南 027_4@932
   - 美国 230_4@933
   - 美国 231_4@934
   - 美国 232_4@935
@@ -21138,9 +21412,11 @@ proxy-groups:
   - 加拿大 497_4@962
   - 加拿大 499_4@964
   - 加拿大 500_4@965
+  - 加拿大 501_4@966
   - 美国 242_4@968
   - 加拿大 502_4@969
   - 加拿大 503_4@970
+  - 爱沙尼亚 001_4@971
   - 美国 243_4@972
   - 英国 012_4@973
   - 越南 028_4@974
@@ -21149,17 +21425,16 @@ proxy-groups:
   - 美国 245_4@977
   - 美国 246_4@978
   - 韩国 022_4@979
-  - 葡萄牙 001_4@980
   - 新加坡 029_4@981
-  - 🇨🇳_CN_中国->🇦🇹_AT_奥地利_6@6
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_6@7
-  - 🇺🇸_US_美国_6_6@10
-  - 🇰🇷_KR_韩国_6@13
+  - 法国 003_4@982
+  - 法国 004_4@983
+  - 🇨🇳_CN_中国->🇮🇳_IN_印度_6@5
+  - 🇰🇷_KR_韩国_6@20
   - SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.202:2375_7@0
   - SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-167.88.61.175:5004_7@1
-  - SS-法国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.172:9102_7@2
-  - SSR-秘鲁:美国-解锁NF-ChatGPT-TikTok-YouTubePrem-190.120.229.28:989_7@3
-  - SS-法国:俄罗斯联邦-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.181:7307_7@4
+  - SS-法国:美国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.172:9102_7@2
+  - SSR-秘鲁-解锁NF-ChatGPT-TikTok-YouTubePrem-190.120.229.28:989_7@3
+  - SS-法国:荷兰-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.181:7307_7@4
   - SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.75.136.135:8118_7@5
   - SS-法国:波兰-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.181:8118_7@6
   - SS-德国-locked-ChatGPT-TikTok-YouTubePrem-217.182.198.219:2376_7@7
@@ -21169,12 +21444,14 @@ proxy-groups:
   - SS-德国:法国-locked-ChatGPT-TikTok-YouTubePrem-145.239.1.100:5001_7@11
   - SS-英国-自制NF-ChatGPT-TikTok-YouTubePrem-212.102.53.79:443_7@12
   - SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.9:8008_7@13
-  - SS-波兰:俄罗斯联邦-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.200:6379_7@14
-  - SS-法国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.172:5003_7@15
-  - SS-波兰-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.200:5004_7@16
+  - SS-波兰-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.200:6379_7@14
+  - SS-法国:美国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.172:5003_7@15
+  - SS-波兰:俄罗斯联邦-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.200:5004_7@16
   - SS-美国-locked-ChatGPT-TikTok-YouTubePrem-167.88.61.175:5000_7@17
   - SS-法国:波兰-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.181:8000_7@18
   - SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.9:5500_7@19
+  - 🇨🇳 中国【付费推荐：https://jdyvip.link/】99_9@9
+  - 🇨🇳 中国【付费推荐：https://jdyvip.link/】103_9@12
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -21237,7 +21514,7 @@ proxy-groups:
   - 🇨🇷_CR_哥斯达黎加->🇩🇪_DE_德国_2@45
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1_2@46
   - 🇺🇸_US_美国->🇩🇪_DE_德国_2_2@47
-  - 🏁RELAY-198.41.223.37-016_3@16
+  - 🏁RELAY-198.41.223.6-016_3@16
   - 🇸🇬SG-52.221.255.59-017_3@17
   - 🇸🇬SG-129.150.44.226-018_3@18
   - 🇨🇳CN-120.233.42.199-019_3@19
@@ -21269,7 +21546,7 @@ proxy-groups:
   - 🇮🇩ID-103.8.79.138-051_3@51
   - 🇳🇱NL-104.193.8.253-052_3@52
   - 🏁RELAY-172.67.199.34-053_3@53
-  - 🏁RELAY-104.16.210.157-054_3@54
+  - 🏁RELAY-172.64.141.75-054_3@54
   - 🏁RELAY-190.93.245.4-055_3@55
   - 🇩🇪DE-52.58.78.16-056_3@56
   - 🏁RELAY-23.227.38.100-057_3@57
@@ -21290,7 +21567,7 @@ proxy-groups:
   - 🇩🇪DE-3.64.163.50-072_3@72
   - 🏁RELAY-188.114.99.11-073_3@73
   - 🏁RELAY-185.162.228.230-075_3@75
-  - 🏁RELAY-172.67.73.208-077_3@77
+  - 🏁RELAY-104.26.9.112-077_3@77
   - 🏁RELAY-162.159.128.7-080_3@80
   - 🇦🇶NOWHERE-0.0.0.0-082_3@82
   - 🏁RELAY-190.93.244.2-084_3@84
@@ -21304,7 +21581,7 @@ proxy-groups:
   - 🏁RELAY-198.41.212.122-094_3@94
   - 🇦🇶GOOGLE-34.145.145.76-095_3@95
   - 🏁RELAY-141.193.213.10-096_3@96
-  - 🏁RELAY-141.193.213.21-097_3@97
+  - 🏁RELAY-141.193.213.20-097_3@97
   - 🏁RELAY-141.193.213.20-100_3@100
   - 🏁RELAY-162.159.135.42-101_3@101
   - 🇦🇶NOWHERE-0.0.0.0-102_3@102
@@ -21318,7 +21595,7 @@ proxy-groups:
   - 🏁RELAY-172.67.199.34-113_3@113
   - 🇦🇶NOWHERE-0.0.0.0-114_3@114
   - 🏁RELAY-172.67.34.78-115_3@115
-  - 🏁RELAY-104.16.67.38-117_3@117
+  - 🏁RELAY-104.16.68.38-117_3@117
   - 🇦🇶NOWHERE-0.0.0.0-118_3@118
   - 🇺🇸US-72.52.178.23-120_3@120
   - 🇦🇶NOWHERE-0.0.0.0-122_3@122
@@ -21326,7 +21603,7 @@ proxy-groups:
   - 🏁RELAY-172.67.164.125-124_3@124
   - 🏁RELAY-141.101.115.30-125_3@125
   - 🇺🇸US-209.209.112.27-127_3@127
-  - 🏁RELAY-104.21.21.147-129_3@129
+  - 🏁RELAY-172.67.199.34-129_3@129
   - 🏁RELAY-198.41.212.123-130_3@130
   - 🇦🇶NOWHERE-0.0.0.0-133_3@133
   - 🏁RELAY-141.101.114.32-135_3@135
@@ -21345,72 +21622,85 @@ proxy-groups:
   - 🇷🇺RU-45.136.244.181-155_3@155
   - 🇷🇺RU-176.32.35.22-156_3@156
   - 🇦🇶NOWHERE-0.0.0.0-159_3@159
-  - 🇱🇹LT-94.131.13.110-161_3@161
-  - 🇬🇧GB-172.99.190.109-162_3@162
-  - 🇪🇪EE-95.164.8.106-164_3@164
-  - 🏁RELAY-104.21.69.44-165_3@165
-  - 🇻🇳VN-115.79.238.34-166_3@166
-  - 🇻🇳VN-115.79.238.34-167_3@167
-  - 🏁RELAY-162.159.133.174-168_3@168
-  - 🇸🇪SE-70.34.202.241-169_3@169
-  - 🇨🇳CN-183.233.187.235-170_3@170
-  - 🇨🇳CN-183.233.187.230-171_3@171
-  - 🇨🇳CN-120.233.42.199-172_3@172
-  - 🇸🇬SG-13.213.46.196-173_3@173
-  - 🇯🇵JP-54.199.83.239-174_3@174
-  - 🇸🇬SG-54.251.168.143-175_3@175
-  - 🇨🇳CN-117.149.247.11-176_3@176
-  - 🇦🇶NOWHERE-0.0.0.0-177_3@177
-  - 🇦🇶NOWHERE-0.0.0.0-178_3@178
-  - 🇸🇬SG-159.223.94.156-179_3@179
-  - 🏁RELAY-104.21.67.88-180_3@180
-  - 🇬🇧GB-13.43.223.6-182_3@182
-  - 🏁RELAY-188.114.98.0-186_3@186
-  - 🇨🇳CN-112.29.200.89-189_3@189
-  - 🇬🇧GB-13.43.223.6-190_3@190
-  - 🇺🇸US-23.142.200.175-191_3@191
-  - 🇬🇧GB-13.43.223.6-192_3@192
-  - 🇩🇪DE-149.40.62.114-194_3@194
-  - 🇮🇪IE-34.250.53.126-195_3@195
-  - 🇹🇼TW-118.167.69.122-196_3@196
-  - 🏁RELAY-104.17.25.2-197_3@197
-  - 🇹🇼TW-118.167.76.233-198_3@198
-  - 🏁RELAY-104.17.25.1-199_3@199
-  - 🇬🇧GB-13.43.223.6-200_3@200
-  - 🇻🇳VN-42.96.11.242-201_3@201
-  - 🇹🇼TW-36.232.158.210-203_3@203
-  - 🇨🇳CN-183.236.51.7-204_3@204
-  - 🇨🇳CN-183.236.51.7-205_3@205
-  - 🇨🇳CN-183.236.51.7-206_3@206
-  - 🇨🇳CN-183.236.51.7-207_3@207
-  - 🇨🇳CN-183.236.51.7-208_3@208
-  - 🇨🇳CN-183.236.51.6-209_3@209
-  - 🇨🇳CN-183.236.51.7-210_3@210
-  - 🇨🇳CN-183.236.51.7-211_3@211
-  - 🇨🇳CN-183.236.51.6-212_3@212
-  - 🇨🇳CN-183.236.51.6-213_3@213
-  - 🇨🇳CN-183.236.51.6-214_3@214
+  - 🇹🇼TW-118.167.69.122-160_3@160
+  - 🇹🇼TW-118.167.76.233-161_3@161
+  - 🇹🇼TW-118.167.76.233-162_3@162
+  - 🇬🇧GB-13.42.187.141-163_3@163
+  - 🇹🇼TW-36.232.158.210-165_3@165
+  - 🇵🇹PT-94.131.10.135-166_3@166
+  - 🏁RELAY-172.67.217.144-167_3@167
+  - 🏁RELAY-104.18.96.67-168_3@168
+  - 🇬🇧GB-18.168.78.229-169_3@169
+  - 🏁RELAY-104.31.16.104-170_3@170
+  - 🏁RELAY-104.21.23.176-171_3@171
+  - 🇵🇹PT-94.131.10.135-172_3@172
+  - 🏁RELAY-104.17.184.241-173_3@173
+  - 🇬🇧GB-172.99.190.109-174_3@174
+  - 🇻🇳VN-103.154.62.18-176_3@176
+  - 🇺🇦UA-185.158.211.186-177_3@177
+  - 🇨🇳CN-183.233.187.235-178_3@178
+  - 🏁RELAY-104.21.8.157-180_3@180
+  - 🇨🇳CN-120.233.42.199-181_3@181
+  - 🏁RELAY-104.17.25.1-182_3@182
+  - 🇬🇧GB-18.168.78.229-184_3@184
+  - 🇸🇬SG-13.213.46.196-185_3@185
+  - 🇯🇵JP-54.199.83.239-186_3@186
+  - 🇸🇬SG-54.251.168.143-187_3@187
+  - 🇨🇳CN-117.149.247.11-188_3@188
+  - 🇦🇶NOWHERE-0.0.0.0-189_3@189
+  - 🇦🇶NOWHERE-0.0.0.0-190_3@190
+  - 🇸🇬SG-159.223.94.156-191_3@191
+  - 🏁RELAY-172.67.219.34-192_3@192
+  - 🇺🇸US-44.230.99.253-193_3@193
+  - 🇬🇧GB-18.168.78.229-194_3@194
+  - 🇮🇪IE-63.34.59.40-195_3@195
+  - 🇨🇳CN-112.29.200.89-196_3@196
+  - 🏁RELAY-198.41.223.234-197_3@197
+  - 🇬🇧GB-13.41.121.112-198_3@198
+  - 🏁RELAY-172.67.194.156-200_3@200
+  - 🏁RELAY-104.21.83.10-201_3@201
+  - 🇹🇼TW-36.238.156.2-203_3@203
+  - 🇮🇶IQ-130.193.166.2-205_3@205
+  - 🇬🇧GB-3.11.123.54-206_3@206
+  - 🇩🇪DE-18.185.201.37-207_3@207
+  - 🏁RELAY-104.17.25.2-208_3@208
+  - 🇨🇳CN-36.139.104.222-209_3@209
+  - 🇸🇪SE-51.21.11.122-210_3@210
+  - 🇫🇷FR-51.210.182.170-211_3@211
+  - 🇨🇳CN-183.240.113.235-212_3@212
+  - 🇨🇳CN-36.139.104.222-214_3@214
   - 🇨🇳CN-183.236.51.7-215_3@215
   - 🇨🇳CN-183.236.51.7-216_3@216
-  - 🇨🇳CN-183.236.51.6-217_3@217
+  - 🇨🇳CN-183.236.51.7-217_3@217
   - 🇨🇳CN-183.236.51.7-218_3@218
   - 🇨🇳CN-183.236.51.7-219_3@219
-  - 🏁RELAY-104.18.203.232-221_3@220
-  - 🇫🇷FR-15.188.169.85-223_3@222
-  - 🇸🇪SE-51.21.59.154-224_3@223
-  - 🇨🇳CN-223.113.130.152-225_3@224
-  - 🇩🇪DE-18.185.210.108-227_3@226
-  - 🇫🇷FR-15.188.2.151-230_3@229
-  - 🇬🇧GB-13.42.93.32-234_3@233
-  - 🇬🇧GB-3.11.170.62-236_3@235
-  - 🇨🇳CN-183.233.187.230-237_3@236
-  - 🇮🇪IE-54.75.182.210-238_3@237
-  - 🇮🇪IE-79.125.70.132-239_3@238
-  - 🇬🇧GB-18.133.96.161-240_3@239
-  - 🇩🇪DE-18.185.201.37-242_3@241
-  - 🏁RELAY-172.64.229.1-243_3@242
-  - 🇨🇳CN-183.233.187.235-245_3@244
-  - 🏁RELAY-104.18.15.147-251_3@250
+  - 🇨🇳CN-183.236.51.6-220_3@220
+  - 🇨🇳CN-183.236.51.7-221_3@221
+  - 🇨🇳CN-183.236.51.7-222_3@222
+  - 🇨🇳CN-183.236.51.6-223_3@223
+  - 🇨🇳CN-183.236.51.6-224_3@224
+  - 🇨🇳CN-183.236.51.6-225_3@225
+  - 🇨🇳CN-183.236.51.7-226_3@226
+  - 🇨🇳CN-183.236.51.7-227_3@227
+  - 🇨🇳CN-183.236.51.6-228_3@228
+  - 🇨🇳CN-183.236.51.7-229_3@229
+  - 🇨🇳CN-183.236.51.7-230_3@230
+  - 🇹🇼TW-36.232.158.210-233_3@232
+  - 🇨🇳CN-112.29.200.89-234_3@233
+  - 🇫🇷FR-15.188.2.151-235_3@234
+  - 🏁RELAY-172.67.184.13-236_3@235
+  - 🇬🇧GB-18.168.78.229-237_3@236
+  - 🇮🇪IE-34.250.53.126-238_3@237
+  - 🇩🇪DE-18.192.144.31-239_3@238
+  - 🇸🇪SE-51.21.110.130-240_3@239
+  - 🇨🇳CN-183.236.51.7-242_3@241
+  - 🇨🇳CN-112.29.200.89-243_3@242
+  - 🇸🇬SG-202.79.171.239-244_3@243
+  - 🇫🇷FR-51.158.150.168-247_3@246
+  - 🇸🇪SE-16.171.76.145-248_3@247
+  - 🏁RELAY-188.114.98.0-249_3@248
+  - 🇹🇼TW-118.167.69.122-250_3@249
+  - 🇬🇧GB-18.168.161.11-251_3@250
   - 加拿大 001_4@0
   - 加拿大 002_4@1
   - 美国 001_4@2
@@ -21466,6 +21756,7 @@ proxy-groups:
   - 加拿大 041_4@52
   - 美国 011_4@53
   - 美国 012_4@54
+  - 加拿大 042_4@55
   - 加拿大 043_4@56
   - 加拿大 044_4@57
   - 加拿大 045_4@58
@@ -21621,7 +21912,6 @@ proxy-groups:
   - 加拿大 153_4@209
   - 加拿大 154_4@210
   - 德国 003_4@211
-  - 加拿大 155_4@212
   - 加拿大 156_4@213
   - 加拿大 157_4@214
   - 加拿大 158_4@215
@@ -21696,6 +21986,7 @@ proxy-groups:
   - 加拿大 191_4@287
   - 加拿大 192_4@288
   - 加拿大 193_4@289
+  - 加拿大 194_4@290
   - 加拿大 195_4@292
   - 加拿大 200_4@297
   - 加拿大 201_4@298
@@ -22042,7 +22333,6 @@ proxy-groups:
   - 加拿大 382_4@652
   - 加拿大 383_4@653
   - 美国 169_4@654
-  - 韩国 006_4@655
   - 韩国 007_4@656
   - 加拿大 384_4@657
   - 加拿大 385_4@658
@@ -22072,6 +22362,7 @@ proxy-groups:
   - 新加坡 012_4@682
   - 越南 017_4@683
   - 加拿大 388_4@684
+  - 越南 018_4@685
   - 日本 005_4@686
   - 越南 019_4@687
   - 香港 005_4@688
@@ -22202,9 +22493,7 @@ proxy-groups:
   - 加拿大 432_4@815
   - 加拿大 433_4@816
   - 加拿大 434_4@817
-  - 加拿大 435_4@818
   - 加拿大 436_4@819
-  - 加拿大 437_4@820
   - 韩国 019_4@821
   - 伊朗 006_4@822
   - 德国 015_4@823
@@ -22284,6 +22573,7 @@ proxy-groups:
   - 加拿大 486_4@903
   - 美国 224_4@904
   - 立陶宛 002_4@905
+  - 立陶宛 003_4@906
   - 美国 225_4@907
   - 伊朗 008_4@909
   - 加拿大 487_4@910
@@ -22301,13 +22591,13 @@ proxy-groups:
   - 美国 228_4@922
   - 美国 229_4@923
   - 越南 025_4@924
-  - 加拿大 488_4@925
   - 俄罗斯 006_4@926
   - 加拿大 489_4@927
   - 新加坡 026_4@928
   - 西班牙 001_4@929
   - 俄罗斯 007_4@930
   - 越南 026_4@931
+  - 越南 027_4@932
   - 美国 230_4@933
   - 美国 231_4@934
   - 美国 232_4@935
@@ -22339,9 +22629,11 @@ proxy-groups:
   - 加拿大 497_4@962
   - 加拿大 499_4@964
   - 加拿大 500_4@965
+  - 加拿大 501_4@966
   - 美国 242_4@968
   - 加拿大 502_4@969
   - 加拿大 503_4@970
+  - 爱沙尼亚 001_4@971
   - 美国 243_4@972
   - 英国 012_4@973
   - 越南 028_4@974
@@ -22350,17 +22642,16 @@ proxy-groups:
   - 美国 245_4@977
   - 美国 246_4@978
   - 韩国 022_4@979
-  - 葡萄牙 001_4@980
   - 新加坡 029_4@981
-  - 🇨🇳_CN_中国->🇦🇹_AT_奥地利_6@6
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_6@7
-  - 🇺🇸_US_美国_6_6@10
-  - 🇰🇷_KR_韩国_6@13
+  - 法国 003_4@982
+  - 法国 004_4@983
+  - 🇨🇳_CN_中国->🇮🇳_IN_印度_6@5
+  - 🇰🇷_KR_韩国_6@20
   - SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.202:2375_7@0
   - SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-167.88.61.175:5004_7@1
-  - SS-法国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.172:9102_7@2
-  - SSR-秘鲁:美国-解锁NF-ChatGPT-TikTok-YouTubePrem-190.120.229.28:989_7@3
-  - SS-法国:俄罗斯联邦-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.181:7307_7@4
+  - SS-法国:美国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.172:9102_7@2
+  - SSR-秘鲁-解锁NF-ChatGPT-TikTok-YouTubePrem-190.120.229.28:989_7@3
+  - SS-法国:荷兰-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.181:7307_7@4
   - SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.75.136.135:8118_7@5
   - SS-法国:波兰-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.181:8118_7@6
   - SS-德国-locked-ChatGPT-TikTok-YouTubePrem-217.182.198.219:2376_7@7
@@ -22370,12 +22661,14 @@ proxy-groups:
   - SS-德国:法国-locked-ChatGPT-TikTok-YouTubePrem-145.239.1.100:5001_7@11
   - SS-英国-自制NF-ChatGPT-TikTok-YouTubePrem-212.102.53.79:443_7@12
   - SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.9:8008_7@13
-  - SS-波兰:俄罗斯联邦-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.200:6379_7@14
-  - SS-法国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.172:5003_7@15
-  - SS-波兰-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.200:5004_7@16
+  - SS-波兰-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.200:6379_7@14
+  - SS-法国:美国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.172:5003_7@15
+  - SS-波兰:俄罗斯联邦-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.200:5004_7@16
   - SS-美国-locked-ChatGPT-TikTok-YouTubePrem-167.88.61.175:5000_7@17
   - SS-法国:波兰-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.181:8000_7@18
   - SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.9:5500_7@19
+  - 🇨🇳 中国【付费推荐：https://jdyvip.link/】99_9@9
+  - 🇨🇳 中国【付费推荐：https://jdyvip.link/】103_9@12
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -22455,7 +22748,7 @@ proxy-groups:
   - 🇨🇷_CR_哥斯达黎加->🇩🇪_DE_德国_2@45
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1_2@46
   - 🇺🇸_US_美国->🇩🇪_DE_德国_2_2@47
-  - 🏁RELAY-198.41.223.37-016_3@16
+  - 🏁RELAY-198.41.223.6-016_3@16
   - 🇸🇬SG-52.221.255.59-017_3@17
   - 🇸🇬SG-129.150.44.226-018_3@18
   - 🇨🇳CN-120.233.42.199-019_3@19
@@ -22487,7 +22780,7 @@ proxy-groups:
   - 🇮🇩ID-103.8.79.138-051_3@51
   - 🇳🇱NL-104.193.8.253-052_3@52
   - 🏁RELAY-172.67.199.34-053_3@53
-  - 🏁RELAY-104.16.210.157-054_3@54
+  - 🏁RELAY-172.64.141.75-054_3@54
   - 🏁RELAY-190.93.245.4-055_3@55
   - 🇩🇪DE-52.58.78.16-056_3@56
   - 🏁RELAY-23.227.38.100-057_3@57
@@ -22508,7 +22801,7 @@ proxy-groups:
   - 🇩🇪DE-3.64.163.50-072_3@72
   - 🏁RELAY-188.114.99.11-073_3@73
   - 🏁RELAY-185.162.228.230-075_3@75
-  - 🏁RELAY-172.67.73.208-077_3@77
+  - 🏁RELAY-104.26.9.112-077_3@77
   - 🏁RELAY-162.159.128.7-080_3@80
   - 🇦🇶NOWHERE-0.0.0.0-082_3@82
   - 🏁RELAY-190.93.244.2-084_3@84
@@ -22522,7 +22815,7 @@ proxy-groups:
   - 🏁RELAY-198.41.212.122-094_3@94
   - 🇦🇶GOOGLE-34.145.145.76-095_3@95
   - 🏁RELAY-141.193.213.10-096_3@96
-  - 🏁RELAY-141.193.213.21-097_3@97
+  - 🏁RELAY-141.193.213.20-097_3@97
   - 🏁RELAY-141.193.213.20-100_3@100
   - 🏁RELAY-162.159.135.42-101_3@101
   - 🇦🇶NOWHERE-0.0.0.0-102_3@102
@@ -22536,7 +22829,7 @@ proxy-groups:
   - 🏁RELAY-172.67.199.34-113_3@113
   - 🇦🇶NOWHERE-0.0.0.0-114_3@114
   - 🏁RELAY-172.67.34.78-115_3@115
-  - 🏁RELAY-104.16.67.38-117_3@117
+  - 🏁RELAY-104.16.68.38-117_3@117
   - 🇦🇶NOWHERE-0.0.0.0-118_3@118
   - 🇺🇸US-72.52.178.23-120_3@120
   - 🇦🇶NOWHERE-0.0.0.0-122_3@122
@@ -22544,7 +22837,7 @@ proxy-groups:
   - 🏁RELAY-172.67.164.125-124_3@124
   - 🏁RELAY-141.101.115.30-125_3@125
   - 🇺🇸US-209.209.112.27-127_3@127
-  - 🏁RELAY-104.21.21.147-129_3@129
+  - 🏁RELAY-172.67.199.34-129_3@129
   - 🏁RELAY-198.41.212.123-130_3@130
   - 🇦🇶NOWHERE-0.0.0.0-133_3@133
   - 🏁RELAY-141.101.114.32-135_3@135
@@ -22563,72 +22856,85 @@ proxy-groups:
   - 🇷🇺RU-45.136.244.181-155_3@155
   - 🇷🇺RU-176.32.35.22-156_3@156
   - 🇦🇶NOWHERE-0.0.0.0-159_3@159
-  - 🇱🇹LT-94.131.13.110-161_3@161
-  - 🇬🇧GB-172.99.190.109-162_3@162
-  - 🇪🇪EE-95.164.8.106-164_3@164
-  - 🏁RELAY-104.21.69.44-165_3@165
-  - 🇻🇳VN-115.79.238.34-166_3@166
-  - 🇻🇳VN-115.79.238.34-167_3@167
-  - 🏁RELAY-162.159.133.174-168_3@168
-  - 🇸🇪SE-70.34.202.241-169_3@169
-  - 🇨🇳CN-183.233.187.235-170_3@170
-  - 🇨🇳CN-183.233.187.230-171_3@171
-  - 🇨🇳CN-120.233.42.199-172_3@172
-  - 🇸🇬SG-13.213.46.196-173_3@173
-  - 🇯🇵JP-54.199.83.239-174_3@174
-  - 🇸🇬SG-54.251.168.143-175_3@175
-  - 🇨🇳CN-117.149.247.11-176_3@176
-  - 🇦🇶NOWHERE-0.0.0.0-177_3@177
-  - 🇦🇶NOWHERE-0.0.0.0-178_3@178
-  - 🇸🇬SG-159.223.94.156-179_3@179
-  - 🏁RELAY-104.21.67.88-180_3@180
-  - 🇬🇧GB-13.43.223.6-182_3@182
-  - 🏁RELAY-188.114.98.0-186_3@186
-  - 🇨🇳CN-112.29.200.89-189_3@189
-  - 🇬🇧GB-13.43.223.6-190_3@190
-  - 🇺🇸US-23.142.200.175-191_3@191
-  - 🇬🇧GB-13.43.223.6-192_3@192
-  - 🇩🇪DE-149.40.62.114-194_3@194
-  - 🇮🇪IE-34.250.53.126-195_3@195
-  - 🇹🇼TW-118.167.69.122-196_3@196
-  - 🏁RELAY-104.17.25.2-197_3@197
-  - 🇹🇼TW-118.167.76.233-198_3@198
-  - 🏁RELAY-104.17.25.1-199_3@199
-  - 🇬🇧GB-13.43.223.6-200_3@200
-  - 🇻🇳VN-42.96.11.242-201_3@201
-  - 🇹🇼TW-36.232.158.210-203_3@203
-  - 🇨🇳CN-183.236.51.7-204_3@204
-  - 🇨🇳CN-183.236.51.7-205_3@205
-  - 🇨🇳CN-183.236.51.7-206_3@206
-  - 🇨🇳CN-183.236.51.7-207_3@207
-  - 🇨🇳CN-183.236.51.7-208_3@208
-  - 🇨🇳CN-183.236.51.6-209_3@209
-  - 🇨🇳CN-183.236.51.7-210_3@210
-  - 🇨🇳CN-183.236.51.7-211_3@211
-  - 🇨🇳CN-183.236.51.6-212_3@212
-  - 🇨🇳CN-183.236.51.6-213_3@213
-  - 🇨🇳CN-183.236.51.6-214_3@214
+  - 🇹🇼TW-118.167.69.122-160_3@160
+  - 🇹🇼TW-118.167.76.233-161_3@161
+  - 🇹🇼TW-118.167.76.233-162_3@162
+  - 🇬🇧GB-13.42.187.141-163_3@163
+  - 🇹🇼TW-36.232.158.210-165_3@165
+  - 🇵🇹PT-94.131.10.135-166_3@166
+  - 🏁RELAY-172.67.217.144-167_3@167
+  - 🏁RELAY-104.18.96.67-168_3@168
+  - 🇬🇧GB-18.168.78.229-169_3@169
+  - 🏁RELAY-104.31.16.104-170_3@170
+  - 🏁RELAY-104.21.23.176-171_3@171
+  - 🇵🇹PT-94.131.10.135-172_3@172
+  - 🏁RELAY-104.17.184.241-173_3@173
+  - 🇬🇧GB-172.99.190.109-174_3@174
+  - 🇻🇳VN-103.154.62.18-176_3@176
+  - 🇺🇦UA-185.158.211.186-177_3@177
+  - 🇨🇳CN-183.233.187.235-178_3@178
+  - 🏁RELAY-104.21.8.157-180_3@180
+  - 🇨🇳CN-120.233.42.199-181_3@181
+  - 🏁RELAY-104.17.25.1-182_3@182
+  - 🇬🇧GB-18.168.78.229-184_3@184
+  - 🇸🇬SG-13.213.46.196-185_3@185
+  - 🇯🇵JP-54.199.83.239-186_3@186
+  - 🇸🇬SG-54.251.168.143-187_3@187
+  - 🇨🇳CN-117.149.247.11-188_3@188
+  - 🇦🇶NOWHERE-0.0.0.0-189_3@189
+  - 🇦🇶NOWHERE-0.0.0.0-190_3@190
+  - 🇸🇬SG-159.223.94.156-191_3@191
+  - 🏁RELAY-172.67.219.34-192_3@192
+  - 🇺🇸US-44.230.99.253-193_3@193
+  - 🇬🇧GB-18.168.78.229-194_3@194
+  - 🇮🇪IE-63.34.59.40-195_3@195
+  - 🇨🇳CN-112.29.200.89-196_3@196
+  - 🏁RELAY-198.41.223.234-197_3@197
+  - 🇬🇧GB-13.41.121.112-198_3@198
+  - 🏁RELAY-172.67.194.156-200_3@200
+  - 🏁RELAY-104.21.83.10-201_3@201
+  - 🇹🇼TW-36.238.156.2-203_3@203
+  - 🇮🇶IQ-130.193.166.2-205_3@205
+  - 🇬🇧GB-3.11.123.54-206_3@206
+  - 🇩🇪DE-18.185.201.37-207_3@207
+  - 🏁RELAY-104.17.25.2-208_3@208
+  - 🇨🇳CN-36.139.104.222-209_3@209
+  - 🇸🇪SE-51.21.11.122-210_3@210
+  - 🇫🇷FR-51.210.182.170-211_3@211
+  - 🇨🇳CN-183.240.113.235-212_3@212
+  - 🇨🇳CN-36.139.104.222-214_3@214
   - 🇨🇳CN-183.236.51.7-215_3@215
   - 🇨🇳CN-183.236.51.7-216_3@216
-  - 🇨🇳CN-183.236.51.6-217_3@217
+  - 🇨🇳CN-183.236.51.7-217_3@217
   - 🇨🇳CN-183.236.51.7-218_3@218
   - 🇨🇳CN-183.236.51.7-219_3@219
-  - 🏁RELAY-104.18.203.232-221_3@220
-  - 🇫🇷FR-15.188.169.85-223_3@222
-  - 🇸🇪SE-51.21.59.154-224_3@223
-  - 🇨🇳CN-223.113.130.152-225_3@224
-  - 🇩🇪DE-18.185.210.108-227_3@226
-  - 🇫🇷FR-15.188.2.151-230_3@229
-  - 🇬🇧GB-13.42.93.32-234_3@233
-  - 🇬🇧GB-3.11.170.62-236_3@235
-  - 🇨🇳CN-183.233.187.230-237_3@236
-  - 🇮🇪IE-54.75.182.210-238_3@237
-  - 🇮🇪IE-79.125.70.132-239_3@238
-  - 🇬🇧GB-18.133.96.161-240_3@239
-  - 🇩🇪DE-18.185.201.37-242_3@241
-  - 🏁RELAY-172.64.229.1-243_3@242
-  - 🇨🇳CN-183.233.187.235-245_3@244
-  - 🏁RELAY-104.18.15.147-251_3@250
+  - 🇨🇳CN-183.236.51.6-220_3@220
+  - 🇨🇳CN-183.236.51.7-221_3@221
+  - 🇨🇳CN-183.236.51.7-222_3@222
+  - 🇨🇳CN-183.236.51.6-223_3@223
+  - 🇨🇳CN-183.236.51.6-224_3@224
+  - 🇨🇳CN-183.236.51.6-225_3@225
+  - 🇨🇳CN-183.236.51.7-226_3@226
+  - 🇨🇳CN-183.236.51.7-227_3@227
+  - 🇨🇳CN-183.236.51.6-228_3@228
+  - 🇨🇳CN-183.236.51.7-229_3@229
+  - 🇨🇳CN-183.236.51.7-230_3@230
+  - 🇹🇼TW-36.232.158.210-233_3@232
+  - 🇨🇳CN-112.29.200.89-234_3@233
+  - 🇫🇷FR-15.188.2.151-235_3@234
+  - 🏁RELAY-172.67.184.13-236_3@235
+  - 🇬🇧GB-18.168.78.229-237_3@236
+  - 🇮🇪IE-34.250.53.126-238_3@237
+  - 🇩🇪DE-18.192.144.31-239_3@238
+  - 🇸🇪SE-51.21.110.130-240_3@239
+  - 🇨🇳CN-183.236.51.7-242_3@241
+  - 🇨🇳CN-112.29.200.89-243_3@242
+  - 🇸🇬SG-202.79.171.239-244_3@243
+  - 🇫🇷FR-51.158.150.168-247_3@246
+  - 🇸🇪SE-16.171.76.145-248_3@247
+  - 🏁RELAY-188.114.98.0-249_3@248
+  - 🇹🇼TW-118.167.69.122-250_3@249
+  - 🇬🇧GB-18.168.161.11-251_3@250
   - 加拿大 001_4@0
   - 加拿大 002_4@1
   - 美国 001_4@2
@@ -22684,6 +22990,7 @@ proxy-groups:
   - 加拿大 041_4@52
   - 美国 011_4@53
   - 美国 012_4@54
+  - 加拿大 042_4@55
   - 加拿大 043_4@56
   - 加拿大 044_4@57
   - 加拿大 045_4@58
@@ -22839,7 +23146,6 @@ proxy-groups:
   - 加拿大 153_4@209
   - 加拿大 154_4@210
   - 德国 003_4@211
-  - 加拿大 155_4@212
   - 加拿大 156_4@213
   - 加拿大 157_4@214
   - 加拿大 158_4@215
@@ -22914,6 +23220,7 @@ proxy-groups:
   - 加拿大 191_4@287
   - 加拿大 192_4@288
   - 加拿大 193_4@289
+  - 加拿大 194_4@290
   - 加拿大 195_4@292
   - 加拿大 200_4@297
   - 加拿大 201_4@298
@@ -23260,7 +23567,6 @@ proxy-groups:
   - 加拿大 382_4@652
   - 加拿大 383_4@653
   - 美国 169_4@654
-  - 韩国 006_4@655
   - 韩国 007_4@656
   - 加拿大 384_4@657
   - 加拿大 385_4@658
@@ -23290,6 +23596,7 @@ proxy-groups:
   - 新加坡 012_4@682
   - 越南 017_4@683
   - 加拿大 388_4@684
+  - 越南 018_4@685
   - 日本 005_4@686
   - 越南 019_4@687
   - 香港 005_4@688
@@ -23420,9 +23727,7 @@ proxy-groups:
   - 加拿大 432_4@815
   - 加拿大 433_4@816
   - 加拿大 434_4@817
-  - 加拿大 435_4@818
   - 加拿大 436_4@819
-  - 加拿大 437_4@820
   - 韩国 019_4@821
   - 伊朗 006_4@822
   - 德国 015_4@823
@@ -23502,6 +23807,7 @@ proxy-groups:
   - 加拿大 486_4@903
   - 美国 224_4@904
   - 立陶宛 002_4@905
+  - 立陶宛 003_4@906
   - 美国 225_4@907
   - 伊朗 008_4@909
   - 加拿大 487_4@910
@@ -23519,13 +23825,13 @@ proxy-groups:
   - 美国 228_4@922
   - 美国 229_4@923
   - 越南 025_4@924
-  - 加拿大 488_4@925
   - 俄罗斯 006_4@926
   - 加拿大 489_4@927
   - 新加坡 026_4@928
   - 西班牙 001_4@929
   - 俄罗斯 007_4@930
   - 越南 026_4@931
+  - 越南 027_4@932
   - 美国 230_4@933
   - 美国 231_4@934
   - 美国 232_4@935
@@ -23557,9 +23863,11 @@ proxy-groups:
   - 加拿大 497_4@962
   - 加拿大 499_4@964
   - 加拿大 500_4@965
+  - 加拿大 501_4@966
   - 美国 242_4@968
   - 加拿大 502_4@969
   - 加拿大 503_4@970
+  - 爱沙尼亚 001_4@971
   - 美国 243_4@972
   - 英国 012_4@973
   - 越南 028_4@974
@@ -23568,17 +23876,16 @@ proxy-groups:
   - 美国 245_4@977
   - 美国 246_4@978
   - 韩国 022_4@979
-  - 葡萄牙 001_4@980
   - 新加坡 029_4@981
-  - 🇨🇳_CN_中国->🇦🇹_AT_奥地利_6@6
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_6@7
-  - 🇺🇸_US_美国_6_6@10
-  - 🇰🇷_KR_韩国_6@13
+  - 法国 003_4@982
+  - 法国 004_4@983
+  - 🇨🇳_CN_中国->🇮🇳_IN_印度_6@5
+  - 🇰🇷_KR_韩国_6@20
   - SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.202:2375_7@0
   - SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-167.88.61.175:5004_7@1
-  - SS-法国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.172:9102_7@2
-  - SSR-秘鲁:美国-解锁NF-ChatGPT-TikTok-YouTubePrem-190.120.229.28:989_7@3
-  - SS-法国:俄罗斯联邦-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.181:7307_7@4
+  - SS-法国:美国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.172:9102_7@2
+  - SSR-秘鲁-解锁NF-ChatGPT-TikTok-YouTubePrem-190.120.229.28:989_7@3
+  - SS-法国:荷兰-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.181:7307_7@4
   - SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.75.136.135:8118_7@5
   - SS-法国:波兰-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.181:8118_7@6
   - SS-德国-locked-ChatGPT-TikTok-YouTubePrem-217.182.198.219:2376_7@7
@@ -23588,12 +23895,14 @@ proxy-groups:
   - SS-德国:法国-locked-ChatGPT-TikTok-YouTubePrem-145.239.1.100:5001_7@11
   - SS-英国-自制NF-ChatGPT-TikTok-YouTubePrem-212.102.53.79:443_7@12
   - SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.9:8008_7@13
-  - SS-波兰:俄罗斯联邦-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.200:6379_7@14
-  - SS-法国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.172:5003_7@15
-  - SS-波兰-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.200:5004_7@16
+  - SS-波兰-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.200:6379_7@14
+  - SS-法国:美国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.172:5003_7@15
+  - SS-波兰:俄罗斯联邦-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.200:5004_7@16
   - SS-美国-locked-ChatGPT-TikTok-YouTubePrem-167.88.61.175:5000_7@17
   - SS-法国:波兰-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.181:8000_7@18
   - SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.9:5500_7@19
+  - 🇨🇳 中国【付费推荐：https://jdyvip.link/】99_9@9
+  - 🇨🇳 中国【付费推荐：https://jdyvip.link/】103_9@12
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
