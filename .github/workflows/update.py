@@ -57,10 +57,6 @@ def update(filename):
 
             return False
 
-        # update Pojiezhiyuanjun link
-        if is_commit_recent("Pojiezhiyuanjun", "2023"):
-            content = re.sub("[0-9]{4}clash\.yml", f"{month}{day}clash.yml", content)
-            content = re.sub("[0-9]{4}\.txt", f"{month}{day}.txt", content)
 
         # open text file
         new_file = open(filename, "w")
