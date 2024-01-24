@@ -32,6 +32,13 @@ def update(filename):
                 content = re.sub("nodefree.org/dy/[0-9]{4}/[0-9]{2}/[0-9]{8}" + f".{tp}",
                                  f"nodefree.org/dy/{year}/{month}/{year}{month}{day}.{tp}", content)
 
+            # check and update v2rayshare link
+            NodeFree_url = f"https://v2rayshare.com/wp-content/uploads/{year}/{month}/{year}{month}{day}.{tp}"
+            if check_url(NodeFree_url) == 200:
+                content = re.sub("v2rayshare.com/wp-content/uploads/[0-9]{4}/[0-9]{2}/[0-9]{8}" + f".{tp}",
+                                 f"v2rayshare.com/wp-content/uploads/{year}/{month}/{year}{month}{day}.{tp}", content)
+
+            
             # check and update ClashNode link
             ClashNode_url = f"https://clashnode.com/wp-content/uploads/{year}/{month}/{year}{month}{day}.{tp}"
             if check_url(ClashNode_url) == 200:
