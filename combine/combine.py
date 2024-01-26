@@ -2,6 +2,7 @@ import requests
 import urllib3
 import yaml
 import os
+import base64
 
 from typing import Any, Dict, List, Optional
 
