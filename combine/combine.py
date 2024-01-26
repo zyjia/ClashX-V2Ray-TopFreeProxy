@@ -83,14 +83,16 @@ def merge_v2ray(configs: List[Optional[str]]) -> str:
 
     decoded_configs = []
     for config in configs:
-        if config:
+        try:
             decoded_config = base64.b64decode(config).decode('utf-8')
             decoded_configs.append(decoded_config)
+        except:
+            print(f"Failed to decode config: {config}")
+            continue 
 
     merged_config = '\n'.join(decoded_configs)
 
     return base64.b64encode(merged_config.encode('utf-8')).decode('utf-8')
-
 def main():
     print(f'[+] Got {len(clash_url_list)} Clash URLs, {len(v2ray_url_list)} V2Ray URLs')
 
