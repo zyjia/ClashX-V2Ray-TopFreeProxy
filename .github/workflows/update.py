@@ -39,11 +39,6 @@ def update(filename):
                                  f"v2rayshare.com/wp-content/uploads/{year}/{month}/{year}{month}{day}.{tp}", content)
 
             
-            # check and update ClashNode link
-            ClashNode_url = f"https://clashnode.com/wp-content/uploads/{year}/{month}/{year}{month}{day}.{tp}"
-            if check_url(ClashNode_url) == 200:
-                content = re.sub("clashnode.com/wp-content/uploads/[0-9]{4}/[0-9]{2}/[0-9]{8}" + f".{tp}",
-                                 f"clashnode.com/wp-content/uploads/{year}/{month}/{year}{month}{day}.{tp}", content)
 
         def is_commit_recent(user, repo):
             response = requests.get(f'https://api.github.com/repos/{user}/{repo}/commits')
